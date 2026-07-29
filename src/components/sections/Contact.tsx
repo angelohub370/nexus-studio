@@ -1,0 +1,165 @@
+"use client";
+
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Section } from "@/components/ui/Section";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { Button } from "@/components/ui/Button";
+import { Input, Textarea } from "@/components/ui/Input";
+import { siteConfig } from "@/lib/site.config";
+import { EASE } from "@/lib/motion";
+
+export function Contact() {
+  const t = useTranslations("contact");
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const contactLinks = [
+    {
+      label: t("labels.phone"),
+      value: siteConfig.contact.phone,
+      href: `tel:${siteConfig.contact.phone.replace(/\s/g, "")}`,
+    },
+    {
+      label: t("labels.email"),
+      value: siteConfig.contact.email,
+      href: `mailto:${siteConfig.contact.email}`,
+    },
+    {
+      label: t("labels.whatsapp"),
+      value: t("labels.whatsappValue"),
+      href: `https://wa.me/${siteConfig.contact.whatsapp}`,
+      external: true,
+    },
+  ];
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitted(true);
+    setTimeout(() => setIsSubmitted(false), 3000);
+    setFormState({ name: "", email: "", phone: "", message: "" });
+  };
+
+  return (
+    <Section id="contact" className="border-t border-white/[0.04]">
+      <SectionHeading
+        label={t("label")}
+        title={t("title")}
+        description={t("description")}
+      />
+
+      <div className="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-16">
+        <motion.form
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: EASE.out }}
+          onSubmit={handleSubmit}
+          className="space-y-4 lg:col-span-3"
+        >
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <Input
+              id="name"
+              label={t("form.name")}
+              required
+              value={formState.name}
+              onChange={(e) =>
+                setFormState({ ...formState, name: e.target.value })
+              }
+              placeholder={t("form.namePlaceholder")}
+            />
+            <Input
+              id="email"
+              label={t("form.email")}
+              type="email"
+              required
+              value={formState.email}
+              onChange={(e) =>
+                setFormState({ ...formState, email: e.target.value })
+              }
+              placeholder={t("form.emailPlaceholder")}
+            />
+          </div>
+
+          <Input
+            id="phone"
+            label={t("form.phone")}
+            type="tel"
+            value={formState.phone}
+            onChange={(e) =>
+              setFormState({ ...formState, phone: e.target.value })
+            }
+            placeholder={t("form.phonePlaceholder")}
+          />
+
+          <Textarea
+            id="message"
+            label={t("form.message")}
+            required
+            rows={5}
+            value={formState.message}
+            onChange={(e) =>
+              setFormState({ ...formState, message: e.target.value })
+            }
+            placeholder={t("form.messagePlaceholder")}
+          />
+
+          <Button type="submit" size="lg" className="w-full sm:w-auto">
+            {isSubmitted ? t("form.submitted") : t("form.submit")}
+          </Button>
+        </motion.form>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.1, ease: EASE.out }}
+          className="space-y-6 lg:col-span-2"
+        >
+          <div className="space-y-1">
+            {contactLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                target={link.external ? "_blank" : undefined}
+                rel={link.external ? "noopener noreferrer" : undefined}
+                className="group flex items-center justify-between rounded-lg px-3 py-3 transition-colors hover:bg-white/[0.03]"
+              >
+                <div>
+                  <p className="font-mono text-[11px] uppercase tracking-wider text-muted">
+                    {link.label}
+                  </p>
+                  <p className="mt-0.5 text-[14px] font-medium">{link.value}</p>
+                </div>
+                <ArrowUpRight
+                  size={14}
+                  className="text-muted opacity-0 transition-all group-hover:opacity-100 group-hover:text-foreground"
+                />
+              </a>
+            ))}
+          </div>
+
+          <div className="overflow-hidden rounded-xl border border-white/[0.06]">
+            <iframe
+              src={siteConfig.contact.mapEmbed}
+              width="100%"
+              height="200"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title={t("labels.mapTitle")}
+            />
+          </div>
+        </motion.div>
+      </div>
+    </Section>
+  );
+}

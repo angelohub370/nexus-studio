@@ -1,0 +1,1084 @@
+{
+  "metadata": {
+    "title": "Nexus Studio | Agenție de Web Design & Dezvoltare",
+    "description": "Construim website-uri și magazine online premium care aduc clienți. Design modern, performanță maximă, rezultate măsurabile.",
+    "keywords": [
+      "web design",
+      "dezvoltare web",
+      "e-commerce",
+      "landing page",
+      "SEO",
+      "Next.js",
+      "Nexus Studio",
+      "agenție digitală",
+      "magazin online",
+      "website"
+    ]
+  },
+  "languages": {
+    "en": "English",
+    "ro": "Română",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "nl": "Nederlands",
+    "pl": "Polski"
+  },
+  "common": {
+    "menu": "Meniu",
+    "requestQuote": "Solicită ofertă",
+    "viewPortfolio": "Vezi portofoliu",
+    "sendMessage": "Trimite mesajul",
+    "messageSent": "Mesaj trimis",
+    "learnMore": "Află mai multe",
+    "getStarted": "Începe acum",
+    "viewAll": "Vezi toate",
+    "bookNow": "Programează-te",
+    "callNow": "Sună acum",
+    "submit": "Trimite",
+    "sent": "Trimis ✓",
+    "loading": "Se încarcă",
+    "close": "Închide",
+    "readMore": "Citește mai mult",
+    "currency": "lei",
+    "demoProject": "Proiect demo"
+  },
+  "nav": {
+    "about": "Despre",
+    "services": "Servicii",
+    "process": "Proces",
+    "portfolio": "Portofoliu",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Agenție de web design & dezvoltare",
+    "titleWords": ["Construim", "website-uri", "și", "magazine", "online", "care"],
+    "titleHighlight": "aduc clienți.",
+    "subtitle": "Design de precizie, cod performant, rezultate măsurabile. Transformăm viziunea ta digitală în experiențe care convertesc.",
+    "metrics": {
+      "design": { "label": "Design", "value": "98%" },
+      "performance": { "label": "Performanță", "value": "97" },
+      "conversions": { "label": "Conversii", "value": "+42%" }
+    }
+  },
+  "marquee": {
+    "items": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Vercel",
+      "Shopify",
+      "WordPress",
+      "Figma",
+      "Stripe"
+    ]
+  },
+  "about": {
+    "label": "Despre",
+    "title": "Experiențe digitale construite cu precizie",
+    "description": "Peste 50 de proiecte livrate pentru afaceri care pun preț pe calitate, nu pe compromisuri.",
+    "features": [
+      {
+        "title": "Cine suntem",
+        "description": "O echipă de designeri și ingineri dedicați creării de experiențe digitale excepționale pentru afaceri ambițioase."
+      },
+      {
+        "title": "Ce oferim",
+        "description": "Soluții web end-to-end — de la identitate vizuală la platforme e-commerce scalabile, optimizate pentru conversii."
+      },
+      {
+        "title": "De ce noi",
+        "description": "Fiecare pixel contează. Livrăm proiecte cu atenție la detalii, performanță de top și suport continuu."
+      }
+    ],
+    "advantagesLabel": "Avantaje",
+    "advantages": [
+      "Design personalizat, nu template-uri",
+      "Performanță Lighthouse 95+",
+      "SEO integrat din start",
+      "Suport dedicat post-lansare",
+      "Cod curat și scalabil",
+      "Livrare rapidă, fără compromisuri"
+    ]
+  },
+  "services": {
+    "label": "Servicii",
+    "title": "Soluții complete pentru prezența ta online",
+    "description": "De la concept la lansare, acoperim fiecare aspect al proiectului tău digital.",
+    "items": {
+      "website": {
+        "title": "Website de prezentare",
+        "description": "Site-uri elegante care reflectă identitatea brandului tău și convertesc vizitatorii în clienți."
+      },
+      "ecommerce": {
+        "title": "Magazin online",
+        "description": "Platforme e-commerce complete, optimizate pentru vânzări și experiență de cumpărare fluidă."
+      },
+      "landing": {
+        "title": "Landing Page",
+        "description": "Pagini de conversie maximă, create pentru campanii de marketing cu rezultate măsurabile."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Optimizare completă pentru motoarele de căutare — vizibilitate organică și trafic calificat."
+      },
+      "speed": {
+        "title": "Optimizare viteză",
+        "description": "Performanță de top cu scor Lighthouse 95+. Site-uri rapide pe care Google le iubește."
+      },
+      "maintenance": {
+        "title": "Mentenanță",
+        "description": "Suport continuu, actualizări de securitate și îmbunătățiri pentru site-ul tău."
+      }
+    }
+  },
+  "process": {
+    "label": "Proces",
+    "title": "Patru pași. Zero surprize.",
+    "description": "Un flux de lucru transparent, structurat pentru eficiență maximă.",
+    "steps": [
+      {
+        "title": "Contact",
+        "description": "Discutăm despre obiectivele tale, publicul țintă și viziunea proiectului."
+      },
+      {
+        "title": "Design",
+        "description": "Creăm mockup-uri moderne și iterăm până la designul perfect pentru brandul tău."
+      },
+      {
+        "title": "Dezvoltare",
+        "description": "Transformăm designul în cod curat, performant și complet responsive."
+      },
+      {
+        "title": "Lansare",
+        "description": "Testăm, optimizăm și lansăm proiectul. Oferim suport post-lansare."
+      }
+    ]
+  },
+  "portfolio": {
+    "label": "Portofoliu",
+    "title": "Proiecte selectate",
+    "description": "Fiecare proiect reflectă angajamentul nostru față de excelență.",
+    "viewProject": "Vezi proiectul",
+    "items": {
+      "fashion": {
+        "title": "ModaLine",
+        "category": "Magazin online de haine"
+      },
+      "restaurant": {
+        "title": "Bistro Central",
+        "category": "Restaurant"
+      },
+      "salon": {
+        "title": "Glow Studio",
+        "category": "Salon de înfrumusețare"
+      },
+      "auto": {
+        "title": "AutoPro",
+        "category": "Service auto"
+      },
+      "clinica": {
+        "title": "DentaSmile",
+        "category": "Clinică stomatologică"
+      }
+    }
+  },
+  "stats": {
+    "responsive": { "value": "100", "suffix": "%", "label": "Responsive" },
+    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
+    "support": { "value": "24/7", "label": "Suport" },
+    "delivery": { "value": "Rapid", "label": "Livrare" }
+  },
+  "testimonials": {
+    "label": "Testimoniale",
+    "title": "Încrederea clienților noștri",
+    "description": "Parteneriate construite pe rezultate, nu pe promisiuni.",
+    "items": [
+      {
+        "name": "Maria Popescu",
+        "role": "CEO",
+        "company": "Lux Residence",
+        "content": "Nexus Studio a transformat complet prezența noastră online. Site-ul nou ne-a adus cu 40% mai mulți clienți în primele 3 luni."
+      },
+      {
+        "name": "Andrei Ionescu",
+        "role": "Fondator",
+        "company": "Fashion Store",
+        "content": "Magazinul online funcționează impecabil. Procesul de checkout e rapid, designul e superb, iar suportul e excepțional."
+      },
+      {
+        "name": "Elena Dumitrescu",
+        "role": "Marketing Director",
+        "company": "TechStart",
+        "content": "Landing page-ul creat de Nexus Studio a avut o rată de conversie de 12% — dublu față de ce aveam înainte. Recomand cu încredere!"
+      },
+      {
+        "name": "Cristian Munteanu",
+        "role": "Proprietar",
+        "company": "Bistro Central",
+        "content": "Profesionalism de la început până la final. Au înțeles perfect viziunea noastră și au livrat peste așteptări."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Întrebări frecvente",
+    "description": "Tot ce trebuie să știi înainte de a începe proiectul.",
+    "items": [
+      {
+        "question": "Cât durează realizarea unui website?",
+        "answer": "Durata depinde de complexitatea proiectului. Un website de prezentare durează 2-4 săptămâni, un magazin online 4-8 săptămâni, iar o landing page 1-2 săptămâni."
+      },
+      {
+        "question": "Ce include prețul unui proiect?",
+        "answer": "Prețul include design personalizat, dezvoltare completă, optimizare SEO de bază, testare cross-browser, training pentru administrare și 30 de zile suport post-lansare."
+      },
+      {
+        "question": "Oferiți mentenanță după lansare?",
+        "answer": "Da, oferim pachete de mentenanță lunară care includ actualizări de securitate, backup-uri, monitorizare performanță și modificări minore de conținut."
+      },
+      {
+        "question": "Site-urile sunt optimizate pentru mobile?",
+        "answer": "Absolut. Toate proiectele noastre sunt 100% responsive și testate pe toate dispozitivele — de la telefon la desktop 4K."
+      },
+      {
+        "question": "Pot vedea progresul proiectului?",
+        "answer": "Da, vei avea acces la un dashboard unde poți urmări progresul în timp real, aproba designul și comunica direct cu echipa."
+      },
+      {
+        "question": "Ce tehnologii folosiți?",
+        "answer": "Folosim tehnologii moderne precum Next.js, React, TypeScript și Tailwind CSS pentru performanță maximă, SEO excelent și experiență de utilizare premium."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Discutăm despre proiectul tău?",
+    "description": "Completează formularul sau contactează-ne direct. Răspundem în 24 de ore.",
+    "form": {
+      "name": "Nume",
+      "email": "Email",
+      "phone": "Telefon",
+      "message": "Mesaj",
+      "namePlaceholder": "Numele tău",
+      "emailPlaceholder": "email@exemplu.ro",
+      "phonePlaceholder": "+40 7XX XXX XXX",
+      "messagePlaceholder": "Descrie proiectul tău...",
+      "submit": "Trimite mesajul",
+      "submitted": "Mesaj trimis"
+    },
+    "labels": {
+      "phone": "Telefon",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "Deschide conversația",
+      "location": "Locație",
+      "mapTitle": "Locație"
+    }
+  },
+  "footer": {
+    "description": "Construim website-uri și magazine online premium care aduc clienți. Design modern, performanță maximă, rezultate măsurabile.",
+    "craftedIn": "Crafted in Romania",
+    "groups": {
+      "company": {
+        "title": "Companie",
+        "links": [
+          { "label": "Despre", "href": "#despre" },
+          { "label": "Servicii", "href": "#servicii" },
+          { "label": "Portofoliu", "href": "#portofoliu" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      "services": {
+        "title": "Servicii",
+        "links": [
+          { "label": "Website", "href": "#servicii" },
+          { "label": "E-commerce", "href": "#servicii" },
+          { "label": "Landing Page", "href": "#servicii" },
+          { "label": "SEO", "href": "#servicii" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "label": "Termeni", "href": "#" },
+          { "label": "Confidențialitate", "href": "#" },
+          { "label": "Cookies", "href": "#" }
+        ]
+      }
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  },
+  "demos": {
+    "shared": {
+      "backToPortfolio": "Înapoi la portofoliu",
+      "demoProject": "Proiect demo"
+    },
+    "fashion": {
+      "metadata": {
+        "title": "ModaLine — Magazin online de haine",
+        "description": "Modă contemporană premium pentru femei."
+      },
+      "brand": {
+        "name": "Moda",
+        "nameHighlight": "Line"
+      },
+      "nav": {
+        "home": "Acasă",
+        "products": "Produse",
+        "about": "Despre",
+        "contact": "Contact",
+        "cart": "Coș",
+        "menu": "Meniu"
+      },
+      "footer": {
+        "description": "Modă contemporană pentru femei care apreciază calitatea și designul atemporal.",
+        "shop": {
+          "title": "Magazin",
+          "links": ["Colecții noi", "Best sellers", "Reduceri"]
+        },
+        "help": {
+          "title": "Ajutor",
+          "links": ["Livrare & Retur", "Ghid mărimi", "Contact"]
+        },
+        "contact": {
+          "title": "Contact",
+          "email": "contact@modaline.ro",
+          "phone": "+40 721 000 111",
+          "address": "București, România"
+        },
+        "copyright": "© 2026 ModaLine. Proiect demo."
+      },
+      "home": {
+        "hero": {
+          "badge": "Colecția Toamnă 2026",
+          "titleLine1": "Eleganță",
+          "titleLine2": "redefinită",
+          "subtitle": "Piese statement create din materiale premium, pentru un garderobă care inspiră.",
+          "cta": "Descoperă colecția"
+        },
+        "featured": {
+          "label": "Selectate",
+          "title": "Produse populare",
+          "viewAll": "Vezi toate →"
+        },
+        "newsletter": {
+          "label": "Newsletter",
+          "title": "Fii primul care descoperă noutățile",
+          "placeholder": "Email-ul tău",
+          "cta": "Abonează-te"
+        }
+      },
+      "products": {
+        "title": "Produse",
+        "count": "{count} produse",
+        "addToCart": "Adaugă în coș",
+        "categories": {
+          "all": "Toate",
+          "coats": "Paltoane",
+          "dresses": "Rochii",
+          "blazers": "Blazere",
+          "pants": "Pantaloni",
+          "jackets": "Geci",
+          "blouses": "Bluze",
+          "skirts": "Fuste"
+        },
+        "tags": {
+          "new": "Nou",
+          "bestSeller": "Best seller"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Palton lana oversized",
+            "price": 899,
+            "category": "Paltoane",
+            "tag": "Nou"
+          },
+          {
+            "id": "2",
+            "name": "Rochie midi satin",
+            "price": 549,
+            "category": "Rochii"
+          },
+          {
+            "id": "3",
+            "name": "Blazer structurat",
+            "price": 649,
+            "category": "Blazere",
+            "tag": "Best seller"
+          },
+          {
+            "id": "4",
+            "name": "Pantaloni liniari",
+            "price": 399,
+            "category": "Pantaloni"
+          },
+          {
+            "id": "5",
+            "name": "Geacă piele vegană",
+            "price": 799,
+            "category": "Geci"
+          },
+          {
+            "id": "6",
+            "name": "Bluză mătase",
+            "price": 329,
+            "category": "Bluze"
+          },
+          {
+            "id": "7",
+            "name": "Fustă plisată",
+            "price": 289,
+            "category": "Fuste"
+          },
+          {
+            "id": "8",
+            "name": "Trenci clasic",
+            "price": 749,
+            "category": "Paltoane",
+            "tag": "Nou"
+          }
+        ]
+      },
+      "about": {
+        "label": "Despre noi",
+        "titleLine1": "Modă cu",
+        "titleLine2": "sens",
+        "paragraph1": "ModaLine s-a născut din pasiunea pentru design atemporal și materiale excepționale. Fiecare piesă din colecțiile noastre este selectată cu grijă pentru a oferi calitate premium la prețuri accesibile.",
+        "paragraph2": "Colaborăm cu ateliere din Europa pentru a crea piese unice, sustenabile și versatile — de la birou la evenimente speciale.",
+        "stats": [
+          { "value": "2019", "label": "Fondată" },
+          { "value": "12K+", "label": "Clienți" },
+          { "value": "100%", "label": "Lână & bumbac" }
+        ],
+        "imageAlt": "Atelier ModaLine"
+      },
+      "contact": {
+        "title": "Contact",
+        "subtitle": "Suntem aici să te ajutăm",
+        "form": {
+          "firstName": "Prenume",
+          "lastName": "Nume",
+          "email": "Email",
+          "message": "Mesaj",
+          "submit": "Trimite",
+          "submitted": "Mesaj trimis ✓"
+        },
+        "info": {
+          "showroom": "Showroom",
+          "showroomValue": "Str. Franceza 62, București",
+          "phone": "Telefon",
+          "phoneValue": "+40 721 000 111",
+          "email": "Email",
+          "emailValue": "contact@modaline.ro",
+          "hours": "Program",
+          "hoursValue": "Luni–Sâmbătă: 10:00–20:00"
+        }
+      }
+    },
+    "restaurant": {
+      "metadata": {
+        "title": "Bistro Central — Restaurant",
+        "description": "Bucătărie europeană contemporană în inima Bucureștiului."
+      },
+      "brand": {
+        "name": "Bistro",
+        "nameHighlight": "Central"
+      },
+      "nav": {
+        "home": "Acasă",
+        "menu": "Meniu",
+        "reservation": "Rezervare",
+        "contact": "Contact",
+        "bookTable": "Rezervă masă"
+      },
+      "footer": {
+        "description": "Bucătărie europeană contemporană, ingrediente locale, atmosferă caldă.",
+        "hours": {
+          "title": "Program",
+          "items": [
+            "Marți – Duminică: 12:00 – 23:00",
+            "Luni: închis",
+            "Brunch Duminică: 10:00 – 14:00"
+          ]
+        },
+        "contact": {
+          "title": "Contact",
+          "address": "Str. Lipscani 28, București",
+          "phone": "+40 731 222 333",
+          "email": "rezervari@bistrocentral.ro"
+        },
+        "copyright": "© 2026 Bistro Central. Proiect demo."
+      },
+      "home": {
+        "hero": {
+          "badge": "Est. 2015 · București",
+          "titleLine1": "Gust autentic,",
+          "titleLine2": "experiență memorabilă",
+          "subtitle": "Bucătărie europeană cu influențe mediteraneene, preparate din ingrediente locale și sezon de la producători din România.",
+          "ctaBook": "Rezervă o masă",
+          "ctaMenu": "Vezi meniul"
+        },
+        "features": [
+          {
+            "title": "Bucătar premiat",
+            "description": "Chef Alexandru M. — 15 ani experiență în bucătării Michelin"
+          },
+          {
+            "title": "Produse locale",
+            "description": "Colaborăm cu 20+ fermieri și producători artizanali din România"
+          },
+          {
+            "title": "Locație centrală",
+            "description": "În inima Centrului Vechi, cu terasă și vedere la strada Lipscani"
+          }
+        ],
+        "signature": {
+          "label": "Preparatul chef-ului",
+          "title": "Antricot Black Angus",
+          "description": "250g carne maturată 28 de zile, servită cu piure trufat, legume la grătar și reducție de vin roșu din podgoriile Dealu Mare.",
+          "price": "145 lei"
+        }
+      },
+      "menu": {
+        "label": "Carte",
+        "title": "Meniu",
+        "subtitle": "Ingredientele se pot modifica sezonier",
+        "categories": {
+          "starters": "Aperitive",
+          "mains": "Feluri principale",
+          "desserts": "Deserturi"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Tartar de somon",
+            "description": "Somon norvegian, avocado, capere, dressing de lămâie",
+            "price": 68,
+            "category": "Aperitive"
+          },
+          {
+            "id": "2",
+            "name": "Supă cremă de trufe",
+            "description": "Trufe negre, smântână, crutoane artizanale",
+            "price": 52,
+            "category": "Aperitive"
+          },
+          {
+            "id": "3",
+            "name": "Risotto ai funghi",
+            "description": "Ciuperci porcini, parmezan 24 luni, unt de trufe",
+            "price": 78,
+            "category": "Feluri principale"
+          },
+          {
+            "id": "4",
+            "name": "File de dorada",
+            "description": "Legume de sezon, sos beurre blanc, ierburi proaspete",
+            "price": 95,
+            "category": "Feluri principale"
+          },
+          {
+            "id": "5",
+            "name": "Antricot de vită",
+            "description": "250g Black Angus, piure trufat, reducție de vin roșu",
+            "price": 145,
+            "category": "Feluri principale"
+          },
+          {
+            "id": "6",
+            "name": "Tiramisu clasic",
+            "description": "Mascarpone, espresso, cacao amăruie",
+            "price": 38,
+            "category": "Deserturi"
+          },
+          {
+            "id": "7",
+            "name": "Fondant de ciocolată",
+            "description": "Ciocolată Valrhona, înghețată de vanilie bourbon",
+            "price": 42,
+            "category": "Deserturi"
+          },
+          {
+            "id": "8",
+            "name": "Panna cotta",
+            "description": "Fructe de pădure, coulis de zmeură",
+            "price": 36,
+            "category": "Deserturi"
+          }
+        ]
+      },
+      "reservation": {
+        "label": "Rezervare",
+        "title": "Rezervă o masă",
+        "subtitle": "Confirmăm rezervarea în maxim 2 ore. Pentru grupuri 8+ persoane, sunați-ne direct.",
+        "form": {
+          "name": "Nume",
+          "phone": "Telefon",
+          "date": "Data",
+          "time": "Ora",
+          "guests": "Persoane",
+          "guestSingular": "persoană",
+          "guestPlural": "persoane",
+          "notes": "Mențiuni speciale",
+          "notesPlaceholder": "Alergii, ocazie specială, preferințe...",
+          "submit": "Confirmă rezervarea",
+          "submitted": "Rezervare trimisă ✓"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "subtitle": "Te așteptăm cu drag",
+        "labels": {
+          "address": "Adresă",
+          "phone": "Telefon",
+          "email": "Email",
+          "hours": "Program"
+        },
+        "values": {
+          "address": "Str. Lipscani 28, București",
+          "phone": "+40 731 222 333",
+          "email": "rezervari@bistrocentral.ro",
+          "hours": "Mar–Dum: 12:00–23:00"
+        },
+        "mapTitle": "Locație Bistro Central"
+      }
+    },
+    "salon": {
+      "metadata": {
+        "title": "Glow Studio — Salon de înfrumusețare",
+        "description": "Salon premium de beauty & wellness."
+      },
+      "brand": {
+        "name": "Glow",
+        "nameHighlight": "Studio"
+      },
+      "nav": {
+        "home": "Acasă",
+        "services": "Servicii",
+        "gallery": "Galerie",
+        "booking": "Programare",
+        "bookNow": "Programează-te"
+      },
+      "footer": {
+        "description": "Salon premium de beauty & wellness.",
+        "hours": {
+          "title": "Program",
+          "value": "Luni–Sâmbătă: 09:00–20:00"
+        },
+        "contact": {
+          "title": "Contact",
+          "value": "+40 745 333 444 · programari@glowstudio.ro"
+        },
+        "copyright": "© 2026 Glow Studio. Proiect demo."
+      },
+      "home": {
+        "hero": {
+          "badge": "Beauty & Wellness",
+          "titleLine1": "Frumusețea ta,",
+          "titleLine2": "prioritatea noastră",
+          "subtitle": "Tratamente premium, produse profesionale, o experiență de răsfăț completă.",
+          "cta": "Programează o vizită"
+        },
+        "features": [
+          {
+            "title": "Produse premium",
+            "description": "Kerastase, OPI, Olaplex, Dermalogica"
+          },
+          {
+            "title": "Atmosferă relaxantă",
+            "description": "Spațiu luminos, muzică ambientală, ceai organic"
+          },
+          {
+            "title": "Stiliști certificați",
+            "description": "Echipă cu experiență internațională"
+          }
+        ],
+        "popular": {
+          "title": "Servicii populare",
+          "viewAll": "Vezi toate serviciile →"
+        }
+      },
+      "services": {
+        "title": "Servicii",
+        "subtitle": "Alege tratamentul perfect pentru tine",
+        "book": "Programează →",
+        "categories": {
+          "hair": "Păr",
+          "nails": "Unghii",
+          "facial": "Facial"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Tuns & Styling",
+            "description": "Consultație, tuns personalizat, styling profesional",
+            "price": "de la 120 lei",
+            "duration": "45 min",
+            "category": "Păr"
+          },
+          {
+            "id": "2",
+            "name": "Balayage Premium",
+            "description": "Tehnica franceză, nuanțe naturale, tratament Olaplex",
+            "price": "de la 450 lei",
+            "duration": "3h",
+            "category": "Păr"
+          },
+          {
+            "id": "3",
+            "name": "Manichiură semipermanentă",
+            "description": "Pregătire cuticule, lac semipermanent, ulei nutritiv",
+            "price": "de la 90 lei",
+            "duration": "60 min",
+            "category": "Unghii"
+          },
+          {
+            "id": "4",
+            "name": "Pedichiură spa",
+            "description": "Exfoliere, mască hidratantă, masaj relaxant",
+            "price": "de la 110 lei",
+            "duration": "75 min",
+            "category": "Unghii"
+          },
+          {
+            "id": "5",
+            "name": "Tratament facial glow",
+            "description": "Curățare profundă, serum vitamina C, LED therapy",
+            "price": "de la 200 lei",
+            "duration": "90 min",
+            "category": "Facial"
+          },
+          {
+            "id": "6",
+            "name": "Micropigmentare sprâncene",
+            "description": "Design personalizat, efect natural, durată 12-18 luni",
+            "price": "de la 600 lei",
+            "duration": "2h",
+            "category": "Facial"
+          }
+        ]
+      },
+      "gallery": {
+        "title": "Galerie",
+        "subtitle": "Lucrările echipei noastre",
+        "imageAlt": "Galerie {number}"
+      },
+      "booking": {
+        "title": "Programare",
+        "subtitle": "Completează formularul și te contactăm pentru confirmare",
+        "form": {
+          "fullName": "Nume complet",
+          "phone": "Telefon",
+          "service": "Serviciu",
+          "preferredDate": "Data preferată",
+          "time": "Ora",
+          "submit": "Trimite programarea",
+          "submitted": "Programare trimisă ✓"
+        }
+      }
+    },
+    "auto": {
+      "metadata": {
+        "title": "AutoPro — Service auto",
+        "description": "Service auto autorizat RAR. Reparații, ITP, diagnoză."
+      },
+      "brand": {
+        "name": "Auto",
+        "nameHighlight": "Pro"
+      },
+      "nav": {
+        "home": "Acasă",
+        "services": "Servicii",
+        "pricing": "Prețuri",
+        "contact": "Contact",
+        "callNow": "Sună acum"
+      },
+      "footer": {
+        "description": "Service auto autorizat RAR. Peste 15 ani experiență.",
+        "hours": {
+          "title": "Program",
+          "value": "Luni–Vineri: 08:00–18:00 · Sâmbătă: 08:00–14:00"
+        },
+        "contact": {
+          "title": "Contact",
+          "value": "Bd. Timișoara 90, București · +40 745 222 333"
+        },
+        "copyright": "© 2026 AutoPro. Proiect demo."
+      },
+      "home": {
+        "hero": {
+          "badge": "Autorizat RAR",
+          "titleLine1": "Service auto",
+          "titleLine2": "de",
+          "titleHighlight": "încredere",
+          "subtitle": "Diagnoză computerizată, reparații mecanice și electronice, ITP, tinichigerie-vopsitorie. Garanție la toate lucrările.",
+          "ctaBook": "Programează-te",
+          "ctaPricing": "Vezi prețuri"
+        },
+        "features": [
+          {
+            "title": "Garanție 12 luni",
+            "description": "La piese și manoperă"
+          },
+          {
+            "title": "Programare rapidă",
+            "description": "Slot disponibil în 24h"
+          },
+          {
+            "title": "Echipament modern",
+            "description": "Diagnoză Bosch KTS"
+          }
+        ],
+        "servicesTitle": "Servicii",
+        "servicesHighlight": "principale"
+      },
+      "services": {
+        "title": "Toate",
+        "titleHighlight": "serviciile",
+        "subtitle": "Service complet pentru autoturisme și SUV-uri",
+        "book": "Programează →",
+        "items": [
+          {
+            "id": "1",
+            "name": "Revizie completă",
+            "description": "Schimb ulei, filtre, verificare 50+ puncte, raport digital",
+            "price": "de la 350 lei",
+            "icon": "🔧"
+          },
+          {
+            "id": "2",
+            "name": "Diagnoză computerizată",
+            "description": "Scanare OBD-II, identificare erori, estimare reparație",
+            "price": "150 lei",
+            "icon": "💻"
+          },
+          {
+            "id": "3",
+            "name": "Frânare & Suspensie",
+            "description": "Plăcuțe, discuri, amortizoare, geometrie roți",
+            "price": "de la 200 lei",
+            "icon": "🛞"
+          },
+          {
+            "id": "4",
+            "name": "Climatizare A/C",
+            "description": "Încărcare freon, dezinfectare, verificare etanșeitate",
+            "price": "de la 180 lei",
+            "icon": "❄️"
+          },
+          {
+            "id": "5",
+            "name": "Tinichigerie & Vopsitorie",
+            "description": "Indreptare caroserie, vopsire parțială/totală, polish",
+            "price": "la cerere",
+            "icon": "🎨"
+          },
+          {
+            "id": "6",
+            "name": "ITP & RCA",
+            "description": "Programare ITP rapid, asistență dosare RCA/CASCO",
+            "price": "de la 90 lei",
+            "icon": "📋"
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Listă",
+        "titleHighlight": "prețuri",
+        "subtitle": "Prețuri orientative. Oferta finală după diagnoză.",
+        "columns": {
+          "service": "Serviciu",
+          "price": "Preț",
+          "duration": "Durată"
+        },
+        "disclaimer": "* Prețurile nu includ TVA. Piesele se facturează separat.",
+        "items": [
+          { "service": "Revizie standard", "price": "350 lei", "time": "2-3 ore" },
+          { "service": "Revizie premium", "price": "550 lei", "time": "3-4 ore" },
+          { "service": "Schimb plăcuțe frână", "price": "200 lei", "time": "1 oră" },
+          { "service": "Schimb discuri frână", "price": "280 lei", "time": "1.5 ore" },
+          { "service": "Geometrie roți", "price": "120 lei", "time": "45 min" },
+          { "service": "Schimb anvelope (4 buc)", "price": "80 lei", "time": "30 min" },
+          { "service": "Diagnoză completă", "price": "150 lei", "time": "30 min" },
+          { "service": "ITP autoturism", "price": "90 lei", "time": "20 min" }
+        ]
+      },
+      "contact": {
+        "title": "Contact &",
+        "titleHighlight": "Programare",
+        "form": {
+          "name": "Nume",
+          "phone": "Telefon",
+          "carModel": "Marca & modelul mașinii",
+          "year": "An fabricație",
+          "issue": "Descrie problema...",
+          "submit": "Trimite cererea",
+          "submitted": "Cerere trimisă ✓"
+        },
+        "info": {
+          "address": "Adresă",
+          "addressValue": "Bd. Timișoara 90, Sector 6, București",
+          "phone": "Telefon",
+          "phoneValue": "+40 745 222 333",
+          "email": "Email",
+          "emailValue": "service@autopro.ro",
+          "hours": "Program",
+          "hoursValue": "Luni–Vineri: 08:00–18:00 · Sâmbătă: 08:00–14:00"
+        }
+      }
+    },
+    "clinica": {
+      "metadata": {
+        "title": "DentaSmile — Clinică stomatologică",
+        "description": "Clinică stomatologică premium cu tehnologie de ultimă generație."
+      },
+      "brand": {
+        "name": "Denta",
+        "nameHighlight": "Smile"
+      },
+      "nav": {
+        "home": "Acasă",
+        "services": "Servicii",
+        "team": "Echipă",
+        "booking": "Programare",
+        "bookNow": "Programează-te"
+      },
+      "footer": {
+        "description": "Clinică stomatologică premium. Tehnologie de ultimă generație.",
+        "hours": {
+          "title": "Program",
+          "value": "Luni–Vineri: 08:00–20:00 · Sâmbătă: 09:00–14:00"
+        },
+        "contact": {
+          "title": "Contact",
+          "value": "Calea Floreasca 111, București · +40 755 444 555"
+        },
+        "copyright": "© 2026 DentaSmile. Proiect demo."
+      },
+      "home": {
+        "badge": "Consultație gratuită",
+        "titleLine1": "Zâmbetul tău,",
+        "titleLine2": "prioritatea noastră",
+        "subtitle": "Clinică stomatologică premium cu echipament digital de ultimă generație. Implanturi, ortodonție invizibilă, estetică dentară — totul sub un singur acoperiș.",
+        "ctaBook": "Programează consultație",
+        "ctaServices": "Servicii",
+        "features": [
+          {
+            "title": "Sterilizare maximă",
+            "description": "Protocoale europene de sterilizare și dezinfectare"
+          },
+          {
+            "title": "Tehnologie digitală",
+            "description": "Scanner intraoral 3D, radiografie digitală, CAD/CAM"
+          },
+          {
+            "title": "Confort total",
+            "description": "Anestezie locală, sedare conștientă, ambient relaxant"
+          }
+        ],
+        "servicesTitle": "Servicii principale",
+        "viewAll": "Vezi toate serviciile →",
+        "imageAlt": "Clinica DentaSmile"
+      },
+      "services": {
+        "title": "Servicii stomatologice",
+        "subtitle": "Tratamente complete pentru un zâmbet sănătos și frumos",
+        "book": "Programează →",
+        "items": [
+          {
+            "id": "1",
+            "name": "Consultație & Plan tratament",
+            "description": "Examinare completă, radiografie digitală, plan personalizat",
+            "price": "Gratuit"
+          },
+          {
+            "id": "2",
+            "name": "Albire dentară",
+            "description": "Albire profesională Zoom, rezultate vizibile din prima ședință",
+            "price": "de la 800 lei"
+          },
+          {
+            "id": "3",
+            "name": "Implant dentar",
+            "description": "Implant Straumann, coroană ceramică, garanție 10 ani",
+            "price": "de la 3.500 lei"
+          },
+          {
+            "id": "4",
+            "name": "Ortodonție invizibilă",
+            "description": "Alignere transparente, monitorizare digitală, rezultat predictibil",
+            "price": "de la 8.000 lei"
+          },
+          {
+            "id": "5",
+            "name": "Fațete dentare",
+            "description": "Ceramică E-max, design digital Smile, aspect natural",
+            "price": "de la 1.800 lei/dinte"
+          },
+          {
+            "id": "6",
+            "name": "Tratament canal",
+            "description": "Microscop endodontic, anestezie locală, durere minimă",
+            "price": "de la 400 lei"
+          }
+        ]
+      },
+      "team": {
+        "title": "Echipa medicală",
+        "subtitle": "Medici specialiști cu experiență internațională",
+        "members": [
+          {
+            "id": "1",
+            "name": "Dr. Ana Marinescu",
+            "role": "Medic stomatolog",
+            "specialty": "Implantologie & Estetică dentară"
+          },
+          {
+            "id": "2",
+            "name": "Dr. Mihai Popescu",
+            "role": "Ortodont",
+            "specialty": "Ortodonție invizibilă & Clasică"
+          },
+          {
+            "id": "3",
+            "name": "Dr. Elena Radu",
+            "role": "Medic stomatolog",
+            "specialty": "Endodonție & Protetică"
+          },
+          {
+            "id": "4",
+            "name": "Dr. Cristian Ionescu",
+            "role": "Chirurg maxilo-facial",
+            "specialty": "Chirurgie orală & Implantologie"
+          }
+        ]
+      },
+      "booking": {
+        "title": "Programare",
+        "subtitle": "Prima consultație este gratuită",
+        "form": {
+          "fullName": "Nume complet",
+          "phone": "Telefon",
+          "email": "Email",
+          "service": "Serviciu dorit",
+          "freeConsultation": "Consultație gratuită",
+          "date": "Data",
+          "time": "Ora",
+          "notes": "Mențiuni (opțional)",
+          "submit": "Confirmă programarea",
+          "submitted": "Programare trimisă ✓"
+        }
+      }
+    }
+  }
+}

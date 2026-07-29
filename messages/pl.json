@@ -1,0 +1,1084 @@
+{
+  "metadata": {
+    "title": "Nexus Studio | Agencja web designu i developmentu",
+    "description": "Tworzymy premium strony internetowe i sklepy online, które przyciągają klientów. Nowoczesny design, maksymalna wydajność, mierzalne wyniki.",
+    "keywords": [
+      "web design",
+      "tworzenie stron",
+      "e-commerce",
+      "landing page",
+      "SEO",
+      "Next.js",
+      "Nexus Studio",
+      "agencja cyfrowa",
+      "sklep online",
+      "strona internetowa"
+    ]
+  },
+  "languages": {
+    "en": "English",
+    "ro": "Română",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "nl": "Nederlands",
+    "pl": "Polski"
+  },
+  "common": {
+    "menu": "Menu",
+    "requestQuote": "Poproś o wycenę",
+    "viewPortfolio": "Zobacz portfolio",
+    "sendMessage": "Wyślij wiadomość",
+    "messageSent": "Wiadomość wysłana",
+    "learnMore": "Dowiedz się więcej",
+    "getStarted": "Rozpocznij",
+    "viewAll": "Zobacz wszystko",
+    "bookNow": "Zarezerwuj teraz",
+    "callNow": "Zadzwoń teraz",
+    "submit": "Wyślij",
+    "sent": "Wysłano ✓",
+    "loading": "Ładowanie",
+    "close": "Zamknij",
+    "readMore": "Czytaj więcej",
+    "currency": "RON",
+    "demoProject": "Projekt demo"
+  },
+  "nav": {
+    "about": "O nas",
+    "services": "Usługi",
+    "process": "Proces",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Agencja web designu i developmentu",
+    "titleWords": ["Tworzymy", "strony", "internetowe", "i", "sklepy", "online", "które"],
+    "titleHighlight": "przyciągają klientów.",
+    "subtitle": "Precyzyjny design, wydajny kod, mierzalne wyniki. Zamieniamy Twoją cyfrową wizję w doświadczenia, które konwertują.",
+    "metrics": {
+      "design": { "label": "Design", "value": "98%" },
+      "performance": { "label": "Wydajność", "value": "97" },
+      "conversions": { "label": "Konwersje", "value": "+42%" }
+    }
+  },
+  "marquee": {
+    "items": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Vercel",
+      "Shopify",
+      "WordPress",
+      "Figma",
+      "Stripe"
+    ]
+  },
+  "about": {
+    "label": "O nas",
+    "title": "Cyfrowe doświadczenia tworzone z precyzją",
+    "description": "Ponad 50 zrealizowanych projektów dla firm, które cenią jakość, a nie kompromisy.",
+    "features": [
+      {
+        "title": "Kim jesteśmy",
+        "description": "Zespół projektantów i inżynierów dedykowany tworzeniu wyjątkowych doświadczeń cyfrowych dla ambitnych firm."
+      },
+      {
+        "title": "Co oferujemy",
+        "description": "Kompleksowe rozwiązania webowe — od tożsamości wizualnej po skalowalne platformy e-commerce, zoptymalizowane pod konwersje."
+      },
+      {
+        "title": "Dlaczego my",
+        "description": "Każdy piksel ma znaczenie. Realizujemy projekty z dbałością o szczegóły, najwyższą wydajnością i ciągłym wsparciem."
+      }
+    ],
+    "advantagesLabel": "Zalety",
+    "advantages": [
+      "Design na zamówienie, nie szablony",
+      "Wydajność Lighthouse 95+",
+      "SEO zintegrowane od pierwszego dnia",
+      "Dedykowane wsparcie po uruchomieniu",
+      "Czysty, skalowalny kod",
+      "Szybka realizacja, bez kompromisów"
+    ]
+  },
+  "services": {
+    "label": "Usługi",
+    "title": "Kompletne rozwiązania dla Twojej obecności online",
+    "description": "Od koncepcji do uruchomienia — obejmujemy każdy aspekt Twojego projektu cyfrowego.",
+    "items": {
+      "website": {
+        "title": "Strona firmowa",
+        "description": "Eleganckie strony odzwierciedlające tożsamość Twojej marki i zamieniające odwiedzających w klientów."
+      },
+      "ecommerce": {
+        "title": "Sklep online",
+        "description": "Kompletne platformy e-commerce zoptymalizowane pod sprzedaż i płynne doświadczenie zakupowe."
+      },
+      "landing": {
+        "title": "Landing page",
+        "description": "Strony o maksymalnej konwersji stworzone na potrzeby kampanii marketingowych z mierzalnymi wynikami."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Pełna optymalizacja pod wyszukiwarki — organiczna widoczność i kwalifikowany ruch."
+      },
+      "speed": {
+        "title": "Optymalizacja szybkości",
+        "description": "Najwyższa wydajność z wynikami Lighthouse 95+. Szybkie strony, które Google uwielbia."
+      },
+      "maintenance": {
+        "title": "Utrzymanie",
+        "description": "Ciągłe wsparcie, aktualizacje bezpieczeństwa i ulepszenia Twojej strony internetowej."
+      }
+    }
+  },
+  "process": {
+    "label": "Proces",
+    "title": "Cztery kroki. Zero niespodzianek.",
+    "description": "Przejrzysty workflow zaprojektowany dla maksymalnej efektywności.",
+    "steps": [
+      {
+        "title": "Kontakt",
+        "description": "Omawiamy Twoje cele, grupę docelową i wizję projektu."
+      },
+      {
+        "title": "Design",
+        "description": "Tworzymy nowoczesne mockupy i iterujemy, aż design będzie idealny dla Twojej marki."
+      },
+      {
+        "title": "Development",
+        "description": "Przekształcamy design w czysty, wydajny, w pełni responsywny kod."
+      },
+      {
+        "title": "Uruchomienie",
+        "description": "Testujemy, optymalizujemy i uruchamiamy projekt. Wsparcie po uruchomieniu w cenie."
+      }
+    ]
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title": "Wybrane projekty",
+    "description": "Każdy projekt odzwierciedla nasze zaangażowanie w doskonałość.",
+    "viewProject": "Zobacz projekt",
+    "items": {
+      "fashion": {
+        "title": "ModaLine",
+        "category": "Sklep odzieżowy online"
+      },
+      "restaurant": {
+        "title": "Bistro Central",
+        "category": "Restauracja"
+      },
+      "salon": {
+        "title": "Glow Studio",
+        "category": "Salon urody"
+      },
+      "auto": {
+        "title": "AutoPro",
+        "category": "Warsztat samochodowy"
+      },
+      "clinica": {
+        "title": "DentaSmile",
+        "category": "Klinika stomatologiczna"
+      }
+    }
+  },
+  "stats": {
+    "responsive": { "value": "100", "suffix": "%", "label": "Responsywność" },
+    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
+    "support": { "value": "24/7", "label": "Wsparcie" },
+    "delivery": { "value": "Szybko", "label": "Realizacja" }
+  },
+  "testimonials": {
+    "label": "Opinie",
+    "title": "Zaufanie naszych klientów",
+    "description": "Partnerstwa oparte na wynikach, nie obietnicach.",
+    "items": [
+      {
+        "name": "Maria Popescu",
+        "role": "CEO",
+        "company": "Lux Residence",
+        "content": "Nexus Studio całkowicie odmieniło naszą obecność online. Nowa strona przyniosła nam 40% więcej klientów w ciągu pierwszych 3 miesięcy."
+      },
+      {
+        "name": "Andrei Ionescu",
+        "role": "Założyciel",
+        "company": "Fashion Store",
+        "content": "Sklep online działa bez zarzutu. Proces płatności jest szybki, design jest znakomity, a wsparcie wyjątkowe."
+      },
+      {
+        "name": "Elena Dumitrescu",
+        "role": "Dyrektor marketingu",
+        "company": "TechStart",
+        "content": "Landing page stworzony przez Nexus Studio osiągnął 12% współczynnika konwersji — dwa razy więcej niż wcześniej. Gorąco polecam!"
+      },
+      {
+        "name": "Cristian Munteanu",
+        "role": "Właściciel",
+        "company": "Bistro Central",
+        "content": "Profesjonalizm od początku do końca. Doskonale zrozumieli naszą wizję i przekroczyli oczekiwania."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Najczęściej zadawane pytania",
+    "description": "Wszystko, co musisz wiedzieć przed rozpoczęciem projektu.",
+    "items": [
+      {
+        "question": "Ile czasu zajmuje stworzenie strony internetowej?",
+        "answer": "Czas zależy od złożoności projektu. Strona firmowa zajmuje 2–4 tygodnie, sklep online 4–8 tygodni, a landing page 1–2 tygodnie."
+      },
+      {
+        "question": "Co jest wliczone w cenę projektu?",
+        "answer": "Cena obejmuje design na zamówienie, pełny development, podstawową optymalizację SEO, testy cross-browser, szkolenie administratora i 30 dni wsparcia po uruchomieniu."
+      },
+      {
+        "question": "Czy oferujecie utrzymanie po uruchomieniu?",
+        "answer": "Tak, oferujemy miesięczne pakiety utrzymania obejmujące aktualizacje bezpieczeństwa, kopie zapasowe, monitoring wydajności i drobne zmiany treści."
+      },
+      {
+        "question": "Czy strony są zoptymalizowane pod urządzenia mobilne?",
+        "answer": "Oczywiście. Wszystkie nasze projekty są w 100% responsywne i testowane na wszystkich urządzeniach — od telefonu po desktop 4K."
+      },
+      {
+        "question": "Czy mogę śledzić postęp projektu?",
+        "answer": "Tak, otrzymasz dostęp do panelu, w którym możesz śledzić postępy w czasie rzeczywistym, zatwierdzać projekty i komunikować się bezpośrednio z zespołem."
+      },
+      {
+        "question": "Jakich technologii używacie?",
+        "answer": "Używamy nowoczesnych technologii, takich jak Next.js, React, TypeScript i Tailwind CSS, dla maksymalnej wydajności, doskonałego SEO i premium doświadczenia użytkownika."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Porozmawiajmy o Twoim projekcie?",
+    "description": "Wypełnij formularz lub skontaktuj się z nami bezpośrednio. Odpowiadamy w ciągu 24 godzin.",
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "message": "Wiadomość",
+      "namePlaceholder": "Twoje imię",
+      "emailPlaceholder": "email@example.com",
+      "phonePlaceholder": "+40 7XX XXX XXX",
+      "messagePlaceholder": "Opisz swój projekt...",
+      "submit": "Wyślij wiadomość",
+      "submitted": "Wiadomość wysłana"
+    },
+    "labels": {
+      "phone": "Telefon",
+      "email": "E-mail",
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "Otwórz rozmowę",
+      "location": "Lokalizacja",
+      "mapTitle": "Lokalizacja"
+    }
+  },
+  "footer": {
+    "description": "Tworzymy premium strony internetowe i sklepy online, które przyciągają klientów. Nowoczesny design, maksymalna wydajność, mierzalne wyniki.",
+    "craftedIn": "Stworzone w Rumunii",
+    "groups": {
+      "company": {
+        "title": "Firma",
+        "links": [
+          { "label": "O nas", "href": "#despre" },
+          { "label": "Usługi", "href": "#servicii" },
+          { "label": "Portfolio", "href": "#portofoliu" },
+          { "label": "Kontakt", "href": "#contact" }
+        ]
+      },
+      "services": {
+        "title": "Usługi",
+        "links": [
+          { "label": "Strona internetowa", "href": "#servicii" },
+          { "label": "E-commerce", "href": "#servicii" },
+          { "label": "Landing Page", "href": "#servicii" },
+          { "label": "SEO", "href": "#servicii" }
+        ]
+      },
+      "legal": {
+        "title": "Prawne",
+        "links": [
+          { "label": "Regulamin", "href": "#" },
+          { "label": "Prywatność", "href": "#" },
+          { "label": "Cookies", "href": "#" }
+        ]
+      }
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  },
+  "demos": {
+    "shared": {
+      "backToPortfolio": "Powrót do portfolio",
+      "demoProject": "Projekt demo"
+    },
+    "fashion": {
+      "metadata": {
+        "title": "ModaLine — Sklep odzieżowy online",
+        "description": "Premium współczesna moda dla kobiet."
+      },
+      "brand": {
+        "name": "Moda",
+        "nameHighlight": "Line"
+      },
+      "nav": {
+        "home": "Strona główna",
+        "products": "Produkty",
+        "about": "O nas",
+        "contact": "Kontakt",
+        "cart": "Koszyk",
+        "menu": "Menu"
+      },
+      "footer": {
+        "description": "Współczesna moda dla kobiet ceniących jakość i ponadczasowy design.",
+        "shop": {
+          "title": "Sklep",
+          "links": ["Nowe kolekcje", "Bestsellery", "Wyprzedaż"]
+        },
+        "help": {
+          "title": "Pomoc",
+          "links": ["Wysyłka i zwroty", "Przewodnik rozmiarów", "Kontakt"]
+        },
+        "contact": {
+          "title": "Kontakt",
+          "email": "contact@modaline.ro",
+          "phone": "+40 721 000 111",
+          "address": "Bucharest, Romania"
+        },
+        "copyright": "© 2026 ModaLine. Projekt demo."
+      },
+      "home": {
+        "hero": {
+          "badge": "Kolekcja Jesień 2026",
+          "titleLine1": "Elegancja",
+          "titleLine2": "na nowo",
+          "subtitle": "Charakterystyczne elementy wykonane z premium materiałów, dla garderoby, która inspiruje.",
+          "cta": "Odkryj kolekcję"
+        },
+        "featured": {
+          "label": "Wybrane",
+          "title": "Popularne produkty",
+          "viewAll": "Zobacz wszystko →"
+        },
+        "newsletter": {
+          "label": "Newsletter",
+          "title": "Bądź pierwszą, która dowie się o nowościach",
+          "placeholder": "Twój e-mail",
+          "cta": "Zapisz się"
+        }
+      },
+      "products": {
+        "title": "Produkty",
+        "count": "{count} produktów",
+        "addToCart": "Dodaj do koszyka",
+        "categories": {
+          "all": "Wszystkie",
+          "coats": "Płaszcze",
+          "dresses": "Sukienki",
+          "blazers": "Marynarki",
+          "pants": "Spodnie",
+          "jackets": "Kurtki",
+          "blouses": "Bluzki",
+          "skirts": "Spódnice"
+        },
+        "tags": {
+          "new": "Nowość",
+          "bestSeller": "Bestseller"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Oversize'owy płaszcz wełniany",
+            "price": 899,
+            "category": "Płaszcze",
+            "tag": "Nowość"
+          },
+          {
+            "id": "2",
+            "name": "Satynowa sukienka midi",
+            "price": 549,
+            "category": "Sukienki"
+          },
+          {
+            "id": "3",
+            "name": "Strukturalna marynarka",
+            "price": 649,
+            "category": "Marynarki",
+            "tag": "Bestseller"
+          },
+          {
+            "id": "4",
+            "name": "Spodnie szyte na miarę",
+            "price": 399,
+            "category": "Spodnie"
+          },
+          {
+            "id": "5",
+            "name": "Kurtka ze skóry wegańskiej",
+            "price": 799,
+            "category": "Kurtki"
+          },
+          {
+            "id": "6",
+            "name": "Jedwabna bluzka",
+            "price": 329,
+            "category": "Bluzki"
+          },
+          {
+            "id": "7",
+            "name": "Spódnica plisowana",
+            "price": 289,
+            "category": "Spódnice"
+          },
+          {
+            "id": "8",
+            "name": "Klasyczny trench",
+            "price": 749,
+            "category": "Płaszcze",
+            "tag": "Nowość"
+          }
+        ]
+      },
+      "about": {
+        "label": "O nas",
+        "titleLine1": "Moda z",
+        "titleLine2": "misją",
+        "paragraph1": "ModaLine powstało z pasji do ponadczasowego designu i wyjątkowych materiałów. Każdy element naszych kolekcji jest starannie dobierany, aby oferować premium jakość w przystępnych cenach.",
+        "paragraph2": "Współpracujemy z pracowniami w całej Europie, tworząc unikalne, zrównoważone i uniwersalne elementy — od biura po specjalne okazje.",
+        "stats": [
+          { "value": "2019", "label": "Założenie" },
+          { "value": "12K+", "label": "Klientów" },
+          { "value": "100%", "label": "Wełna i bawełna" }
+        ],
+        "imageAlt": "Atelier ModaLine"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "subtitle": "Jesteśmy tu, aby pomóc",
+        "form": {
+          "firstName": "Imię",
+          "lastName": "Nazwisko",
+          "email": "E-mail",
+          "message": "Wiadomość",
+          "submit": "Wyślij",
+          "submitted": "Wiadomość wysłana ✓"
+        },
+        "info": {
+          "showroom": "Showroom",
+          "showroomValue": "62 Franceza St, Bucharest",
+          "phone": "Telefon",
+          "phoneValue": "+40 721 000 111",
+          "email": "E-mail",
+          "emailValue": "contact@modaline.ro",
+          "hours": "Godziny otwarcia",
+          "hoursValue": "Pon–Sob: 10:00–20:00"
+        }
+      }
+    },
+    "restaurant": {
+      "metadata": {
+        "title": "Bistro Central — Restauracja",
+        "description": "Współczesna kuchnia europejska z wpływami śródziemnomorskimi."
+      },
+      "brand": {
+        "name": "Bistro",
+        "nameHighlight": "Central"
+      },
+      "nav": {
+        "home": "Strona główna",
+        "menu": "Menu",
+        "reservation": "Rezerwacja",
+        "contact": "Kontakt",
+        "bookTable": "Zarezerwuj stolik"
+      },
+      "footer": {
+        "description": "Współczesna kuchnia europejska, lokalne składniki, ciepła atmosfera.",
+        "hours": {
+          "title": "Godziny otwarcia",
+          "items": [
+            "Wtorek – Niedziela: 12:00 – 23:00",
+            "Poniedziałek: zamknięte",
+            "Niedzielny brunch: 10:00 – 14:00"
+          ]
+        },
+        "contact": {
+          "title": "Kontakt",
+          "address": "28 Lipscani St, Bucharest",
+          "phone": "+40 731 222 333",
+          "email": "rezervari@bistrocentral.ro"
+        },
+        "copyright": "© 2026 Bistro Central. Projekt demo."
+      },
+      "home": {
+        "hero": {
+          "badge": "Est. 2015 · Bucharest",
+          "titleLine1": "Autentyczny smak,",
+          "titleLine2": "niezapomniane doświadczenie",
+          "subtitle": "Kuchnia europejska z wpływami śródziemnomorskimi, dania przygotowane z lokalnych sezonowych składników od producentów z całej Rumunii.",
+          "ctaBook": "Zarezerwuj stolik",
+          "ctaMenu": "Zobacz menu"
+        },
+        "features": [
+          {
+            "title": "Nagradzany szef kuchni",
+            "description": "Szef Alexandru M. — 15 lat doświadczenia w kuchniach Michelin"
+          },
+          {
+            "title": "Lokalne produkty",
+            "description": "Współpracujemy z ponad 20 rolnikami i rzemieślniczymi producentami w całej Rumunii"
+          },
+          {
+            "title": "Centralna lokalizacja",
+            "description": "W sercu Starego Miasta, z tarasem i widokiem na Lipscani Street"
+          }
+        ],
+        "signature": {
+          "label": "Danie szefa kuchni",
+          "title": "Black Angus ribeye",
+          "description": "250g wołowiny dojrzewanej 28 dni, podawane z puree truflowym, grillowanymi warzywami i redukcją z czerwonego wina z winnic Dealu Mare.",
+          "price": "145 RON"
+        }
+      },
+      "menu": {
+        "label": "Menu",
+        "title": "Nasze menu",
+        "subtitle": "Składniki mogą się zmieniać sezonowo",
+        "categories": {
+          "starters": "Przystawki",
+          "mains": "Dania główne",
+          "desserts": "Desery"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Tatar z łososia",
+            "description": "Norweski łosoś, awokado, kapary, dressing cytrynowy",
+            "price": 68,
+            "category": "Przystawki"
+          },
+          {
+            "id": "2",
+            "name": "Krem truflowy",
+            "description": "Czarne trufle, śmietana, domowe grzanki",
+            "price": 52,
+            "category": "Przystawki"
+          },
+          {
+            "id": "3",
+            "name": "Risotto z borowikami",
+            "description": "Borowiki, parmezan 24-miesięczny, masło truflowe",
+            "price": 78,
+            "category": "Dania główne"
+          },
+          {
+            "id": "4",
+            "name": "Filet z dorady",
+            "description": "Warzywa sezonowe, sos beurre blanc, świeże zioła",
+            "price": 95,
+            "category": "Dania główne"
+          },
+          {
+            "id": "5",
+            "name": "Beef ribeye",
+            "description": "250g Black Angus, puree truflowe, redukcja z czerwonego wina",
+            "price": 145,
+            "category": "Dania główne"
+          },
+          {
+            "id": "6",
+            "name": "Klasyczne tiramisu",
+            "description": "Mascarpone, espresso, gorzka kakao",
+            "price": 38,
+            "category": "Desery"
+          },
+          {
+            "id": "7",
+            "name": "Fondant czekoladowy",
+            "description": "Czekolada Valrhona, lody waniliowe bourbon",
+            "price": 42,
+            "category": "Desery"
+          },
+          {
+            "id": "8",
+            "name": "Panna cotta",
+            "description": "Owoce leśne, coulis malinowy",
+            "price": 36,
+            "category": "Desery"
+          }
+        ]
+      },
+      "reservation": {
+        "label": "Rezerwacja",
+        "title": "Zarezerwuj stolik",
+        "subtitle": "Potwierdzamy rezerwacje w ciągu 2 godzin. Dla grup 8+ osób prosimy o bezpośredni telefon.",
+        "form": {
+          "name": "Imię i nazwisko",
+          "phone": "Telefon",
+          "date": "Data",
+          "time": "Godzina",
+          "guests": "Goście",
+          "guestSingular": "gość",
+          "guestPlural": "gości",
+          "notes": "Specjalne prośby",
+          "notesPlaceholder": "Alergie, specjalna okazja, preferencje...",
+          "submit": "Potwierdź rezerwację",
+          "submitted": "Rezerwacja wysłana ✓"
+        }
+      },
+      "contact": {
+        "title": "Kontakt",
+        "subtitle": "Nie możemy się doczekać Twojej wizyty",
+        "labels": {
+          "address": "Adres",
+          "phone": "Telefon",
+          "email": "E-mail",
+          "hours": "Godziny otwarcia"
+        },
+        "values": {
+          "address": "28 Lipscani St, Bucharest",
+          "phone": "+40 731 222 333",
+          "email": "rezervari@bistrocentral.ro",
+          "hours": "Wt–Nd: 12:00–23:00"
+        },
+        "mapTitle": "Lokalizacja Bistro Central"
+      }
+    },
+    "salon": {
+      "metadata": {
+        "title": "Glow Studio — Salon urody",
+        "description": "Premium zabiegi beauty i wellness."
+      },
+      "brand": {
+        "name": "Glow",
+        "nameHighlight": "Studio"
+      },
+      "nav": {
+        "home": "Strona główna",
+        "services": "Usługi",
+        "gallery": "Galeria",
+        "booking": "Rezerwacja",
+        "bookNow": "Zarezerwuj teraz"
+      },
+      "footer": {
+        "description": "Premium salon beauty i wellness.",
+        "hours": {
+          "title": "Godziny otwarcia",
+          "value": "Pon–Sob: 09:00–20:00"
+        },
+        "contact": {
+          "title": "Kontakt",
+          "value": "+40 745 333 444 · programari@glowstudio.ro"
+        },
+        "copyright": "© 2026 Glow Studio. Projekt demo."
+      },
+      "home": {
+        "hero": {
+          "badge": "Beauty & Wellness",
+          "titleLine1": "Twoje piękno,",
+          "titleLine2": "nasz priorytet",
+          "subtitle": "Premium zabiegi, profesjonalne produkty, pełne doświadczenie relaksu.",
+          "cta": "Zarezerwuj wizytę"
+        },
+        "features": [
+          {
+            "title": "Premium produkty",
+            "description": "Kerastase, OPI, Olaplex, Dermalogica"
+          },
+          {
+            "title": "Relaksująca atmosfera",
+            "description": "Jasna przestrzeń, muzyka ambient, organiczna herbata"
+          },
+          {
+            "title": "Certyfikowani styliści",
+            "description": "Zespół z międzynarodowym doświadczeniem"
+          }
+        ],
+        "popular": {
+          "title": "Popularne usługi",
+          "viewAll": "Zobacz wszystkie usługi →"
+        }
+      },
+      "services": {
+        "title": "Usługi",
+        "subtitle": "Wybierz idealny zabieg dla siebie",
+        "book": "Rezerwuj →",
+        "categories": {
+          "hair": "Włosy",
+          "nails": "Paznokcie",
+          "facial": "Twarz"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Strzyżenie i stylizacja",
+            "description": "Konsultacja, indywidualne strzyżenie, profesjonalna stylizacja",
+            "price": "od 120 RON",
+            "duration": "45 min",
+            "category": "Włosy"
+          },
+          {
+            "id": "2",
+            "name": "Premium balayage",
+            "description": "Technika francuska, naturalne odcienie, zabieg Olaplex",
+            "price": "od 450 RON",
+            "duration": "3h",
+            "category": "Włosy"
+          },
+          {
+            "id": "3",
+            "name": "Manicure żelowy",
+            "description": "Przygotowanie skórek, lakier żelowy, olejek odżywczy",
+            "price": "od 90 RON",
+            "duration": "60 min",
+            "category": "Paznokcie"
+          },
+          {
+            "id": "4",
+            "name": "Pedicure spa",
+            "description": "Peeling, nawilżająca maska, relaksujący masaż",
+            "price": "od 110 RON",
+            "duration": "75 min",
+            "category": "Paznokcie"
+          },
+          {
+            "id": "5",
+            "name": "Zabieg na twarz Glow",
+            "description": "Głębokie oczyszczanie, serum witamina C, terapia LED",
+            "price": "od 200 RON",
+            "duration": "90 min",
+            "category": "Twarz"
+          },
+          {
+            "id": "6",
+            "name": "Microblading brwi",
+            "description": "Indywidualny design, naturalny efekt, trwa 12–18 miesięcy",
+            "price": "od 600 RON",
+            "duration": "2h",
+            "category": "Twarz"
+          }
+        ]
+      },
+      "gallery": {
+        "title": "Galeria",
+        "subtitle": "Prace naszego zespołu",
+        "imageAlt": "Galeria {number}"
+      },
+      "booking": {
+        "title": "Rezerwacja",
+        "subtitle": "Wypełnij formularz, a skontaktujemy się w celu potwierdzenia",
+        "form": {
+          "fullName": "Imię i nazwisko",
+          "phone": "Telefon",
+          "service": "Usługa",
+          "preferredDate": "Preferowana data",
+          "time": "Godzina",
+          "submit": "Wyślij rezerwację",
+          "submitted": "Rezerwacja wysłana ✓"
+        }
+      }
+    },
+    "auto": {
+      "metadata": {
+        "title": "AutoPro — Warsztat samochodowy",
+        "description": "Zaufany warsztat samochodowy z komputerową diagnostyką i gwarancją na wszystkie prace."
+      },
+      "brand": {
+        "name": "Auto",
+        "nameHighlight": "Pro"
+      },
+      "nav": {
+        "home": "Strona główna",
+        "services": "Usługi",
+        "pricing": "Cennik",
+        "contact": "Kontakt",
+        "callNow": "Zadzwoń teraz"
+      },
+      "footer": {
+        "description": "Autoryzowany warsztat RAR. Ponad 15 lat doświadczenia.",
+        "hours": {
+          "title": "Godziny otwarcia",
+          "value": "Pon–Pt: 08:00–18:00 · Sob: 08:00–14:00"
+        },
+        "contact": {
+          "title": "Kontakt",
+          "value": "90 Timisoara Blvd, Bucharest · +40 745 222 333"
+        },
+        "copyright": "© 2026 AutoPro. Projekt demo."
+      },
+      "home": {
+        "hero": {
+          "badge": "Autoryzowany RAR",
+          "titleLine1": "Zaufany",
+          "titleLine2": "warsztat samochodowy",
+          "titleHighlight": "na którym możesz polegać",
+          "subtitle": "Komputerowa diagnostyka, naprawy mechaniczne i elektroniczne, przegląd techniczny, blacharstwo i lakiernictwo. Gwarancja na wszystkie prace.",
+          "ctaBook": "Umów wizytę",
+          "ctaPricing": "Zobacz cennik"
+        },
+        "features": [
+          {
+            "title": "Gwarancja 12 miesięcy",
+            "description": "Na części i robociznę"
+          },
+          {
+            "title": "Szybkie umawianie",
+            "description": "Termin dostępny w ciągu 24h"
+          },
+          {
+            "title": "Nowoczesny sprzęt",
+            "description": "Diagnostyka Bosch KTS"
+          }
+        ],
+        "servicesTitle": "Główne",
+        "servicesHighlight": "usługi"
+      },
+      "services": {
+        "title": "Wszystkie",
+        "titleHighlight": "usługi",
+        "subtitle": "Kompleksowa obsługa samochodów i SUV-ów",
+        "book": "Rezerwuj →",
+        "items": [
+          {
+            "id": "1",
+            "name": "Pełny serwis",
+            "description": "Wymiana oleju, filtry, inspekcja 50+ punktów, raport cyfrowy",
+            "price": "od 350 RON",
+            "icon": "🔧"
+          },
+          {
+            "id": "2",
+            "name": "Diagnostyka komputerowa",
+            "description": "Skan OBD-II, identyfikacja błędów, wycena naprawy",
+            "price": "150 RON",
+            "icon": "💻"
+          },
+          {
+            "id": "3",
+            "name": "Hamulce i zawieszenie",
+            "description": "Klocki, tarcze, amortyzatory, geometria kół",
+            "price": "od 200 RON",
+            "icon": "🛞"
+          },
+          {
+            "id": "4",
+            "name": "Klimatyzacja",
+            "description": "Uzupełnienie freonu, dezynfekcja, kontrola szczelności",
+            "price": "od 180 RON",
+            "icon": "❄️"
+          },
+          {
+            "id": "5",
+            "name": "Blacharstwo i lakiernictwo",
+            "description": "Prostowanie karoserii, lakierowanie częściowe/pełne, polerowanie",
+            "price": "na zapytanie",
+            "icon": "🎨"
+          },
+          {
+            "id": "6",
+            "name": "Przegląd i ubezpieczenia",
+            "description": "Szybkie umawianie przeglądu, pomoc w sprawach RCA/CASCO",
+            "price": "od 90 RON",
+            "icon": "📋"
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Cennik",
+        "titleHighlight": "usług",
+        "subtitle": "Ceny orientacyjne. Ostateczna wycena po diagnostyce.",
+        "columns": {
+          "service": "Usługa",
+          "price": "Cena",
+          "duration": "Czas trwania"
+        },
+        "disclaimer": "* Ceny bez VAT. Części fakturowane osobno.",
+        "items": [
+          { "service": "Serwis standardowy", "price": "350 RON", "time": "2–3 godz." },
+          { "service": "Serwis premium", "price": "550 RON", "time": "3–4 godz." },
+          { "service": "Wymiana klocków hamulcowych", "price": "200 RON", "time": "1 godz." },
+          { "service": "Wymiana tarcz hamulcowych", "price": "280 RON", "time": "1,5 godz." },
+          { "service": "Geometria kół", "price": "120 RON", "time": "45 min" },
+          { "service": "Wymiana opon (4 szt.)", "price": "80 RON", "time": "30 min" },
+          { "service": "Pełna diagnostyka", "price": "150 RON", "time": "30 min" },
+          { "service": "Przegląd techniczny", "price": "90 RON", "time": "20 min" }
+        ]
+      },
+      "contact": {
+        "title": "Kontakt i",
+        "titleHighlight": "rezerwacja",
+        "form": {
+          "name": "Imię i nazwisko",
+          "phone": "Telefon",
+          "carModel": "Marka i model samochodu",
+          "year": "Rok produkcji",
+          "issue": "Opisz problem...",
+          "submit": "Wyślij zgłoszenie",
+          "submitted": "Zgłoszenie wysłane ✓"
+        },
+        "info": {
+          "address": "Adres",
+          "addressValue": "90 Timisoara Blvd, Sector 6, Bucharest",
+          "phone": "Telefon",
+          "phoneValue": "+40 745 222 333",
+          "email": "E-mail",
+          "emailValue": "service@autopro.ro",
+          "hours": "Godziny otwarcia",
+          "hoursValue": "Pon–Pt: 08:00–18:00 · Sob: 08:00–14:00"
+        }
+      }
+    },
+    "clinica": {
+      "metadata": {
+        "title": "DentaSmile — Klinika stomatologiczna",
+        "description": "Premium klinika stomatologiczna z najnowocześniejszym sprzętem cyfrowym."
+      },
+      "brand": {
+        "name": "Denta",
+        "nameHighlight": "Smile"
+      },
+      "nav": {
+        "home": "Strona główna",
+        "services": "Usługi",
+        "team": "Zespół",
+        "booking": "Rezerwacja",
+        "bookNow": "Zarezerwuj teraz"
+      },
+      "footer": {
+        "description": "Premium klinika stomatologiczna. Najnowocześniejsza technologia.",
+        "hours": {
+          "title": "Godziny otwarcia",
+          "value": "Pon–Pt: 08:00–20:00 · Sob: 09:00–14:00"
+        },
+        "contact": {
+          "title": "Kontakt",
+          "value": "111 Floreasca Road, Bucharest · +40 755 444 555"
+        },
+        "copyright": "© 2026 DentaSmile. Projekt demo."
+      },
+      "home": {
+        "badge": "Bezpłatna konsultacja",
+        "titleLine1": "Twój uśmiech,",
+        "titleLine2": "nasz priorytet",
+        "subtitle": "Premium klinika stomatologiczna z najnowocześniejszym sprzętem cyfrowym. Implanty, niewidoczna ortodoncja, stomatologia estetyczna — wszystko pod jednym dachem.",
+        "ctaBook": "Umów konsultację",
+        "ctaServices": "Usługi",
+        "features": [
+          {
+            "title": "Maksymalna sterylizacja",
+            "description": "Europejskie protokoły sterylizacji i dezynfekcji"
+          },
+          {
+            "title": "Technologia cyfrowa",
+            "description": "Skaner wewnątrzustny 3D, cyfrowe RTG, CAD/CAM"
+          },
+          {
+            "title": "Pełen komfort",
+            "description": "Znieczulenie miejscowe, sedacja świadoma, relaksujące otoczenie"
+          }
+        ],
+        "servicesTitle": "Główne usługi",
+        "viewAll": "Zobacz wszystkie usługi →",
+        "imageAlt": "Klinika DentaSmile"
+      },
+      "services": {
+        "title": "Usługi stomatologiczne",
+        "subtitle": "Kompleksowe zabiegi dla zdrowego, pięknego uśmiechu",
+        "book": "Rezerwuj →",
+        "items": [
+          {
+            "id": "1",
+            "name": "Konsultacja i plan leczenia",
+            "description": "Pełne badanie, cyfrowe RTG, spersonalizowany plan",
+            "price": "Bezpłatnie"
+          },
+          {
+            "id": "2",
+            "name": "Wybielanie zębów",
+            "description": "Profesjonalne wybielanie Zoom, widoczne efekty od pierwszej sesji",
+            "price": "od 800 RON"
+          },
+          {
+            "id": "3",
+            "name": "Implant dentystyczny",
+            "description": "Implant Straumann, korona ceramiczna, 10 lat gwarancji",
+            "price": "od 3.500 RON"
+          },
+          {
+            "id": "4",
+            "name": "Niewidoczna ortodoncja",
+            "description": "Przezroczyste nakładki, cyfrowy monitoring, przewidywalne wyniki",
+            "price": "od 8.000 RON"
+          },
+          {
+            "id": "5",
+            "name": "Licówki dentystyczne",
+            "description": "Ceramika E-max, cyfrowy Smile design, naturalny wygląd",
+            "price": "od 1.800 RON/ząb"
+          },
+          {
+            "id": "6",
+            "name": "Leczenie kanałowe",
+            "description": "Mikroskop endodontyczny, znieczulenie miejscowe, minimalny dyskomfort",
+            "price": "od 400 RON"
+          }
+        ]
+      },
+      "team": {
+        "title": "Zespół medyczny",
+        "subtitle": "Lekarze specjaliści z międzynarodowym doświadczeniem",
+        "members": [
+          {
+            "id": "1",
+            "name": "Dr. Ana Marinescu",
+            "role": "Stomatolog",
+            "specialty": "Implantologia i stomatologia estetyczna"
+          },
+          {
+            "id": "2",
+            "name": "Dr. Mihai Popescu",
+            "role": "Ortodonta",
+            "specialty": "Ortodoncja niewidoczna i klasyczna"
+          },
+          {
+            "id": "3",
+            "name": "Dr. Elena Radu",
+            "role": "Stomatolog",
+            "specialty": "Endodoncja i protetyka"
+          },
+          {
+            "id": "4",
+            "name": "Dr. Cristian Ionescu",
+            "role": "Chirurg szczękowo-twarzowy",
+            "specialty": "Chirurgia stomatologiczna i implantologia"
+          }
+        ]
+      },
+      "booking": {
+        "title": "Rezerwacja",
+        "subtitle": "Pierwsza konsultacja jest bezpłatna",
+        "form": {
+          "fullName": "Imię i nazwisko",
+          "phone": "Telefon",
+          "email": "E-mail",
+          "service": "Wybrana usługa",
+          "freeConsultation": "Bezpłatna konsultacja",
+          "date": "Data",
+          "time": "Godzina",
+          "notes": "Uwagi (opcjonalnie)",
+          "submit": "Potwierdź rezerwację",
+          "submitted": "Rezerwacja wysłana ✓"
+        }
+      }
+    }
+  }
+}

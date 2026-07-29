@@ -1,0 +1,1084 @@
+{
+  "metadata": {
+    "title": "Nexus Studio | Webdesign- & ontwikkelingsbureau",
+    "description": "Wij bouwen premium websites en webshops die klanten opleveren. Modern design, maximale prestaties, meetbare resultaten.",
+    "keywords": [
+      "webdesign",
+      "webontwikkeling",
+      "e-commerce",
+      "landing page",
+      "SEO",
+      "Next.js",
+      "Nexus Studio",
+      "digitaal bureau",
+      "webshop",
+      "website"
+    ]
+  },
+  "languages": {
+    "en": "English",
+    "ro": "Română",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "nl": "Nederlands",
+    "pl": "Polski"
+  },
+  "common": {
+    "menu": "Menu",
+    "requestQuote": "Offerte aanvragen",
+    "viewPortfolio": "Portfolio bekijken",
+    "sendMessage": "Bericht versturen",
+    "messageSent": "Bericht verzonden",
+    "learnMore": "Meer informatie",
+    "getStarted": "Aan de slag",
+    "viewAll": "Alles bekijken",
+    "bookNow": "Nu boeken",
+    "callNow": "Nu bellen",
+    "submit": "Versturen",
+    "sent": "Verzonden ✓",
+    "loading": "Laden",
+    "close": "Sluiten",
+    "readMore": "Lees meer",
+    "currency": "RON",
+    "demoProject": "Demoproject"
+  },
+  "nav": {
+    "about": "Over ons",
+    "services": "Diensten",
+    "process": "Proces",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Webdesign- & ontwikkelingsbureau",
+    "titleWords": ["Wij", "bouwen", "websites", "en", "online", "webshops", "die"],
+    "titleHighlight": "klanten opleveren.",
+    "subtitle": "Precisie-design, performante code, meetbare resultaten. Wij maken van uw digitale visie ervaringen die converteren.",
+    "metrics": {
+      "design": { "label": "Design", "value": "98%" },
+      "performance": { "label": "Prestaties", "value": "97" },
+      "conversions": { "label": "Conversies", "value": "+42%" }
+    }
+  },
+  "marquee": {
+    "items": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Vercel",
+      "Shopify",
+      "WordPress",
+      "Figma",
+      "Stripe"
+    ]
+  },
+  "about": {
+    "label": "Over ons",
+    "title": "Digitale ervaringen gebouwd met precisie",
+    "description": "Meer dan 50 projecten geleverd voor bedrijven die kwaliteit waarderen, geen compromissen.",
+    "features": [
+      {
+        "title": "Wie wij zijn",
+        "description": "Een team van ontwerpers en engineers die zich inzetten voor uitzonderlijke digitale ervaringen voor ambitieuze bedrijven."
+      },
+      {
+        "title": "Wat wij bieden",
+        "description": "End-to-end weboplossingen — van visuele identiteit tot schaalbare e-commerceplatforms, geoptimaliseerd voor conversies."
+      },
+      {
+        "title": "Waarom wij",
+        "description": "Elke pixel telt. Wij leveren projecten met aandacht voor detail, topprestaties en doorlopende ondersteuning."
+      }
+    ],
+    "advantagesLabel": "Voordelen",
+    "advantages": [
+      "Maatwerk design, geen templates",
+      "Lighthouse-prestaties 95+",
+      "SEO geïntegreerd vanaf dag één",
+      "Toegewijde ondersteuning na lancering",
+      "Schone, schaalbare code",
+      "Snelle oplevering, geen compromissen"
+    ]
+  },
+  "services": {
+    "label": "Diensten",
+    "title": "Complete oplossingen voor uw online aanwezigheid",
+    "description": "Van concept tot lancering dekken wij elk aspect van uw digitale project.",
+    "items": {
+      "website": {
+        "title": "Bedrijfswebsite",
+        "description": "Elegante sites die uw merkidentiteit weerspiegelen en bezoekers omzetten in klanten."
+      },
+      "ecommerce": {
+        "title": "Webshop",
+        "description": "Complete e-commerceplatforms geoptimaliseerd voor verkoop en een naadloze winkelervaring."
+      },
+      "landing": {
+        "title": "Landing page",
+        "description": "Pagina's met maximale conversie, gebouwd voor marketingcampagnes met meetbare resultaten."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Volledige zoekmachineoptimalisatie — organische zichtbaarheid en gekwalificeerd verkeer."
+      },
+      "speed": {
+        "title": "Snelheidsoptimalisatie",
+        "description": "Topprestaties met Lighthouse-scores van 95+. Snelle sites waar Google van houdt."
+      },
+      "maintenance": {
+        "title": "Onderhoud",
+        "description": "Doorlopende ondersteuning, beveiligingsupdates en verbeteringen voor uw website."
+      }
+    }
+  },
+  "process": {
+    "label": "Proces",
+    "title": "Vier stappen. Geen verrassingen.",
+    "description": "Een transparante workflow gestructureerd voor maximale efficiëntie.",
+    "steps": [
+      {
+        "title": "Contact",
+        "description": "Wij bespreken uw doelen, doelgroep en projectvisie."
+      },
+      {
+        "title": "Design",
+        "description": "Wij maken moderne mockups en itereren tot het design perfect is voor uw merk."
+      },
+      {
+        "title": "Ontwikkeling",
+        "description": "Wij zetten het design om in schone, performante, volledig responsieve code."
+      },
+      {
+        "title": "Lancering",
+        "description": "Wij testen, optimaliseren en lanceren het project. Ondersteuning na lancering inbegrepen."
+      }
+    ]
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title": "Geselecteerde projecten",
+    "description": "Elk project weerspiegelt onze toewijding aan excellentie.",
+    "viewProject": "Project bekijken",
+    "items": {
+      "fashion": {
+        "title": "ModaLine",
+        "category": "Online kledingwinkel"
+      },
+      "restaurant": {
+        "title": "Bistro Central",
+        "category": "Restaurant"
+      },
+      "salon": {
+        "title": "Glow Studio",
+        "category": "Schoonheidssalon"
+      },
+      "auto": {
+        "title": "AutoPro",
+        "category": "Autogarage"
+      },
+      "clinica": {
+        "title": "DentaSmile",
+        "category": "Tandartspraktijk"
+      }
+    }
+  },
+  "stats": {
+    "responsive": { "value": "100", "suffix": "%", "label": "Responsive" },
+    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
+    "support": { "value": "24/7", "label": "Support" },
+    "delivery": { "value": "Snel", "label": "Levering" }
+  },
+  "testimonials": {
+    "label": "Getuigenissen",
+    "title": "Het vertrouwen van onze klanten",
+    "description": "Partnerschappen gebaseerd op resultaten, niet op beloftes.",
+    "items": [
+      {
+        "name": "Maria Popescu",
+        "role": "CEO",
+        "company": "Lux Residence",
+        "content": "Nexus Studio heeft onze online aanwezigheid volledig getransformeerd. De nieuwe website bracht ons 40% meer klanten in de eerste 3 maanden."
+      },
+      {
+        "name": "Andrei Ionescu",
+        "role": "Oprichter",
+        "company": "Fashion Store",
+        "content": "De webshop werkt feilloos. Het afrekenproces is snel, het design is prachtig en de support is uitzonderlijk."
+      },
+      {
+        "name": "Elena Dumitrescu",
+        "role": "Marketingdirecteur",
+        "company": "TechStart",
+        "content": "De landing page die Nexus Studio maakte had een conversieratio van 12% — het dubbele van wat we eerder hadden. Zeer aanbevolen!"
+      },
+      {
+        "name": "Cristian Munteanu",
+        "role": "Eigenaar",
+        "company": "Bistro Central",
+        "content": "Professionaliteit van begin tot eind. Ze begrepen onze visie perfect en overtroffen de verwachtingen."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Veelgestelde vragen",
+    "description": "Alles wat u moet weten voordat u aan uw project begint.",
+    "items": [
+      {
+        "question": "Hoe lang duurt het om een website te bouwen?",
+        "answer": "De duur hangt af van de complexiteit van het project. Een bedrijfswebsite duurt 2–4 weken, een webshop 4–8 weken en een landing page 1–2 weken."
+      },
+      {
+        "question": "Wat is inbegrepen in de projectprijs?",
+        "answer": "De prijs omvat maatwerk design, volledige ontwikkeling, basis-SEO-optimalisatie, cross-browser testing, admin-training en 30 dagen ondersteuning na lancering."
+      },
+      {
+        "question": "Bieden jullie onderhoud na de lancering?",
+        "answer": "Ja, wij bieden maandelijkse onderhoudspakketten met beveiligingsupdates, back-ups, prestatiemonitoring en kleine contentwijzigingen."
+      },
+      {
+        "question": "Zijn de websites geoptimaliseerd voor mobiel?",
+        "answer": "Absoluut. Al onze projecten zijn 100% responsive en getest op alle apparaten — van telefoon tot 4K-desktop."
+      },
+      {
+        "question": "Kan ik de voortgang van het project volgen?",
+        "answer": "Ja, u krijgt toegang tot een dashboard waar u de voortgang in realtime kunt volgen, designs kunt goedkeuren en direct met het team kunt communiceren."
+      },
+      {
+        "question": "Welke technologieën gebruiken jullie?",
+        "answer": "Wij gebruiken moderne technologieën zoals Next.js, React, TypeScript en Tailwind CSS voor maximale prestaties, uitstekende SEO en een premium gebruikerservaring."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Laten we praten over uw project?",
+    "description": "Vul het formulier in of neem direct contact op. Wij reageren binnen 24 uur.",
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "message": "Bericht",
+      "namePlaceholder": "Uw naam",
+      "emailPlaceholder": "email@example.com",
+      "phonePlaceholder": "+40 7XX XXX XXX",
+      "messagePlaceholder": "Beschrijf uw project...",
+      "submit": "Bericht versturen",
+      "submitted": "Bericht verzonden"
+    },
+    "labels": {
+      "phone": "Telefoon",
+      "email": "E-mail",
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "Gesprek openen",
+      "location": "Locatie",
+      "mapTitle": "Locatie"
+    }
+  },
+  "footer": {
+    "description": "Wij bouwen premium websites en webshops die klanten opleveren. Modern design, maximale prestaties, meetbare resultaten.",
+    "craftedIn": "Gemaakt in Roemenië",
+    "groups": {
+      "company": {
+        "title": "Bedrijf",
+        "links": [
+          { "label": "Over ons", "href": "#despre" },
+          { "label": "Diensten", "href": "#servicii" },
+          { "label": "Portfolio", "href": "#portofoliu" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      "services": {
+        "title": "Diensten",
+        "links": [
+          { "label": "Website", "href": "#servicii" },
+          { "label": "E-commerce", "href": "#servicii" },
+          { "label": "Landing Page", "href": "#servicii" },
+          { "label": "SEO", "href": "#servicii" }
+        ]
+      },
+      "legal": {
+        "title": "Juridisch",
+        "links": [
+          { "label": "Voorwaarden", "href": "#" },
+          { "label": "Privacy", "href": "#" },
+          { "label": "Cookies", "href": "#" }
+        ]
+      }
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  },
+  "demos": {
+    "shared": {
+      "backToPortfolio": "Terug naar portfolio",
+      "demoProject": "Demoproject"
+    },
+    "fashion": {
+      "metadata": {
+        "title": "ModaLine — Online kledingwinkel",
+        "description": "Premium eigentijdse mode voor vrouwen."
+      },
+      "brand": {
+        "name": "Moda",
+        "nameHighlight": "Line"
+      },
+      "nav": {
+        "home": "Home",
+        "products": "Producten",
+        "about": "Over ons",
+        "contact": "Contact",
+        "cart": "Winkelwagen",
+        "menu": "Menu"
+      },
+      "footer": {
+        "description": "Eigentijdse mode voor vrouwen die kwaliteit en tijdloos design waarderen.",
+        "shop": {
+          "title": "Winkel",
+          "links": ["Nieuwe collecties", "Bestsellers", "Sale"]
+        },
+        "help": {
+          "title": "Hulp",
+          "links": ["Verzending & retour", "Maattabel", "Contact"]
+        },
+        "contact": {
+          "title": "Contact",
+          "email": "contact@modaline.ro",
+          "phone": "+40 721 000 111",
+          "address": "Bucharest, Romania"
+        },
+        "copyright": "© 2026 ModaLine. Demoproject."
+      },
+      "home": {
+        "hero": {
+          "badge": "Herfstcollectie 2026",
+          "titleLine1": "Elegantie",
+          "titleLine2": "heruitgevonden",
+          "subtitle": "Statement-stukken gemaakt van premium materialen, voor een garderobe die inspireert.",
+          "cta": "Ontdek de collectie"
+        },
+        "featured": {
+          "label": "Geselecteerd",
+          "title": "Populaire producten",
+          "viewAll": "Alles bekijken →"
+        },
+        "newsletter": {
+          "label": "Nieuwsbrief",
+          "title": "Wees als eerste op de hoogte van het nieuwste",
+          "placeholder": "Uw e-mail",
+          "cta": "Abonneren"
+        }
+      },
+      "products": {
+        "title": "Producten",
+        "count": "{count} producten",
+        "addToCart": "In winkelwagen",
+        "categories": {
+          "all": "Alles",
+          "coats": "Jassen",
+          "dresses": "Jurken",
+          "blazers": "Blazers",
+          "pants": "Broeken",
+          "jackets": "Jacks",
+          "blouses": "Blouses",
+          "skirts": "Rokken"
+        },
+        "tags": {
+          "new": "Nieuw",
+          "bestSeller": "Bestseller"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Oversized wollen jas",
+            "price": 899,
+            "category": "Jassen",
+            "tag": "Nieuw"
+          },
+          {
+            "id": "2",
+            "name": "Satijnen midi-jurk",
+            "price": 549,
+            "category": "Jurken"
+          },
+          {
+            "id": "3",
+            "name": "Gestructureerde blazer",
+            "price": 649,
+            "category": "Blazers",
+            "tag": "Bestseller"
+          },
+          {
+            "id": "4",
+            "name": "Maatwerk broek",
+            "price": 399,
+            "category": "Broeken"
+          },
+          {
+            "id": "5",
+            "name": "Vegan leren jas",
+            "price": 799,
+            "category": "Jacks"
+          },
+          {
+            "id": "6",
+            "name": "Zijden blouse",
+            "price": 329,
+            "category": "Blouses"
+          },
+          {
+            "id": "7",
+            "name": "Plooirok",
+            "price": 289,
+            "category": "Rokken"
+          },
+          {
+            "id": "8",
+            "name": "Klassieke trenchcoat",
+            "price": 749,
+            "category": "Jassen",
+            "tag": "Nieuw"
+          }
+        ]
+      },
+      "about": {
+        "label": "Over ons",
+        "titleLine1": "Mode met",
+        "titleLine2": "doel",
+        "paragraph1": "ModaLine is geboren uit een passie voor tijdloos design en uitzonderlijke materialen. Elk stuk in onze collecties is zorgvuldig geselecteerd om premium kwaliteit tegen toegankelijke prijzen te bieden.",
+        "paragraph2": "Wij werken samen met ateliers door heel Europa om unieke, duurzame en veelzijdige stukken te creëren — van kantoor tot speciale gelegenheden.",
+        "stats": [
+          { "value": "2019", "label": "Opgericht" },
+          { "value": "12K+", "label": "Klanten" },
+          { "value": "100%", "label": "Wol & katoen" }
+        ],
+        "imageAlt": "ModaLine atelier"
+      },
+      "contact": {
+        "title": "Contact",
+        "subtitle": "Wij staan voor u klaar",
+        "form": {
+          "firstName": "Voornaam",
+          "lastName": "Achternaam",
+          "email": "E-mail",
+          "message": "Bericht",
+          "submit": "Versturen",
+          "submitted": "Bericht verzonden ✓"
+        },
+        "info": {
+          "showroom": "Showroom",
+          "showroomValue": "62 Franceza St, Bucharest",
+          "phone": "Telefoon",
+          "phoneValue": "+40 721 000 111",
+          "email": "E-mail",
+          "emailValue": "contact@modaline.ro",
+          "hours": "Openingstijden",
+          "hoursValue": "Ma–Za: 10:00–20:00"
+        }
+      }
+    },
+    "restaurant": {
+      "metadata": {
+        "title": "Bistro Central — Restaurant",
+        "description": "Eigentijdse Europese keuken met mediterrane invloeden."
+      },
+      "brand": {
+        "name": "Bistro",
+        "nameHighlight": "Central"
+      },
+      "nav": {
+        "home": "Home",
+        "menu": "Menu",
+        "reservation": "Reservering",
+        "contact": "Contact",
+        "bookTable": "Tafel reserveren"
+      },
+      "footer": {
+        "description": "Eigentijdse Europese keuken, lokale ingrediënten, warme sfeer.",
+        "hours": {
+          "title": "Openingstijden",
+          "items": [
+            "Dinsdag – Zondag: 12:00 – 23:00",
+            "Maandag: gesloten",
+            "Zondagbrunch: 10:00 – 14:00"
+          ]
+        },
+        "contact": {
+          "title": "Contact",
+          "address": "28 Lipscani St, Bucharest",
+          "phone": "+40 731 222 333",
+          "email": "rezervari@bistrocentral.ro"
+        },
+        "copyright": "© 2026 Bistro Central. Demoproject."
+      },
+      "home": {
+        "hero": {
+          "badge": "Est. 2015 · Bucharest",
+          "titleLine1": "Authentieke smaak,",
+          "titleLine2": "onvergetelijke ervaring",
+          "subtitle": "Europese keuken met mediterrane invloeden, gerechten gemaakt van lokale seizoensproducten van producenten door heel Roemenië.",
+          "ctaBook": "Tafel reserveren",
+          "ctaMenu": "Menu bekijken"
+        },
+        "features": [
+          {
+            "title": "Bekroonde chef",
+            "description": "Chef Alexandru M. — 15 jaar ervaring in Michelin-keukens"
+          },
+          {
+            "title": "Lokale producten",
+            "description": "Wij werken samen met 20+ boeren en ambachtelijke producenten door heel Roemenië"
+          },
+          {
+            "title": "Centrale locatie",
+            "description": "In het hart van de Oude Stad, met terras en uitzicht op Lipscani Street"
+          }
+        ],
+        "signature": {
+          "label": "Gerecht van de chef",
+          "title": "Black Angus ribeye",
+          "description": "250g 28 dagen gerijpt rundvlees, geserveerd met truffelpuree, gegrilde groenten en rode wijnreductie van wijngaarden in Dealu Mare.",
+          "price": "145 RON"
+        }
+      },
+      "menu": {
+        "label": "Menu",
+        "title": "Ons menu",
+        "subtitle": "Ingrediënten kunnen seizoensgebonden variëren",
+        "categories": {
+          "starters": "Voorgerechten",
+          "mains": "Hoofdgerechten",
+          "desserts": "Desserts"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Zalm tartaar",
+            "description": "Noorse zalm, avocado, kappertjes, citrondressing",
+            "price": 68,
+            "category": "Voorgerechten"
+          },
+          {
+            "id": "2",
+            "name": "Truffelroomsoep",
+            "description": "Zwarte truffels, room, ambachtelijke croutons",
+            "price": 52,
+            "category": "Voorgerechten"
+          },
+          {
+            "id": "3",
+            "name": "Risotto met porcini",
+            "description": "Porcini-paddestoelen, 24-maanden parmezaan, truffelboter",
+            "price": 78,
+            "category": "Hoofdgerechten"
+          },
+          {
+            "id": "4",
+            "name": "Zeebrasemfilet",
+            "description": "Seizoensgroenten, beurre blanc-saus, verse kruiden",
+            "price": 95,
+            "category": "Hoofdgerechten"
+          },
+          {
+            "id": "5",
+            "name": "Beef ribeye",
+            "description": "250g Black Angus, truffelpuree, rode wijnreductie",
+            "price": 145,
+            "category": "Hoofdgerechten"
+          },
+          {
+            "id": "6",
+            "name": "Klassieke tiramisu",
+            "description": "Mascarpone, espresso, bittere cacao",
+            "price": 38,
+            "category": "Desserts"
+          },
+          {
+            "id": "7",
+            "name": "Chocolade fondant",
+            "description": "Valrhona-chocolade, bourbonvanille-ijs",
+            "price": 42,
+            "category": "Desserts"
+          },
+          {
+            "id": "8",
+            "name": "Panna cotta",
+            "description": "Bosbessen, frambozencoulis",
+            "price": 36,
+            "category": "Desserts"
+          }
+        ]
+      },
+      "reservation": {
+        "label": "Reservering",
+        "title": "Tafel reserveren",
+        "subtitle": "Wij bevestigen reserveringen binnen 2 uur. Voor groepen van 8+, bel ons rechtstreeks.",
+        "form": {
+          "name": "Naam",
+          "phone": "Telefoon",
+          "date": "Datum",
+          "time": "Tijd",
+          "guests": "Gasten",
+          "guestSingular": "gast",
+          "guestPlural": "gasten",
+          "notes": "Speciale verzoeken",
+          "notesPlaceholder": "Allergieën, speciale gelegenheid, voorkeuren...",
+          "submit": "Reservering bevestigen",
+          "submitted": "Reservering verzonden ✓"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "subtitle": "Wij kijken ernaar uit u te verwelkomen",
+        "labels": {
+          "address": "Adres",
+          "phone": "Telefoon",
+          "email": "E-mail",
+          "hours": "Openingstijden"
+        },
+        "values": {
+          "address": "28 Lipscani St, Bucharest",
+          "phone": "+40 731 222 333",
+          "email": "rezervari@bistrocentral.ro",
+          "hours": "Di–Zo: 12:00–23:00"
+        },
+        "mapTitle": "Locatie Bistro Central"
+      }
+    },
+    "salon": {
+      "metadata": {
+        "title": "Glow Studio — Schoonheidssalon",
+        "description": "Premium beauty- & wellnesstreatments."
+      },
+      "brand": {
+        "name": "Glow",
+        "nameHighlight": "Studio"
+      },
+      "nav": {
+        "home": "Home",
+        "services": "Diensten",
+        "gallery": "Galerij",
+        "booking": "Boeking",
+        "bookNow": "Nu boeken"
+      },
+      "footer": {
+        "description": "Premium beauty- & wellnesssalon.",
+        "hours": {
+          "title": "Openingstijden",
+          "value": "Ma–Za: 09:00–20:00"
+        },
+        "contact": {
+          "title": "Contact",
+          "value": "+40 745 333 444 · programari@glowstudio.ro"
+        },
+        "copyright": "© 2026 Glow Studio. Demoproject."
+      },
+      "home": {
+        "hero": {
+          "badge": "Beauty & Wellness",
+          "titleLine1": "Uw schoonheid,",
+          "titleLine2": "onze prioriteit",
+          "subtitle": "Premium treatments, professionele producten, een complete verwenervaring.",
+          "cta": "Bezoek boeken"
+        },
+        "features": [
+          {
+            "title": "Premium producten",
+            "description": "Kerastase, OPI, Olaplex, Dermalogica"
+          },
+          {
+            "title": "Ontspannende sfeer",
+            "description": "Lichte ruimte, ambient muziek, biologische thee"
+          },
+          {
+            "title": "Gecertificeerde stylisten",
+            "description": "Team met internationale ervaring"
+          }
+        ],
+        "popular": {
+          "title": "Populaire diensten",
+          "viewAll": "Alle diensten bekijken →"
+        }
+      },
+      "services": {
+        "title": "Diensten",
+        "subtitle": "Kies de perfecte treatment voor u",
+        "book": "Boeken →",
+        "categories": {
+          "hair": "Haar",
+          "nails": "Nagels",
+          "facial": "Gezicht"
+        },
+        "items": [
+          {
+            "id": "1",
+            "name": "Knippen & styling",
+            "description": "Consultatie, gepersonaliseerde knipbeurt, professionele styling",
+            "price": "vanaf 120 RON",
+            "duration": "45 min",
+            "category": "Haar"
+          },
+          {
+            "id": "2",
+            "name": "Premium balayage",
+            "description": "Franse techniek, natuurlijke tinten, Olaplex-behandeling",
+            "price": "vanaf 450 RON",
+            "duration": "3u",
+            "category": "Haar"
+          },
+          {
+            "id": "3",
+            "name": "Gellak manicure",
+            "description": "Nagelriemvoorbereiding, gellak, voedende olie",
+            "price": "vanaf 90 RON",
+            "duration": "60 min",
+            "category": "Nagels"
+          },
+          {
+            "id": "4",
+            "name": "Spa-pedicure",
+            "description": "Exfoliatie, hydraterend masker, ontspannende massage",
+            "price": "vanaf 110 RON",
+            "duration": "75 min",
+            "category": "Nagels"
+          },
+          {
+            "id": "5",
+            "name": "Glow gezichtsbehandeling",
+            "description": "Diepe reiniging, vitamine C-serum, LED-therapie",
+            "price": "vanaf 200 RON",
+            "duration": "90 min",
+            "category": "Gezicht"
+          },
+          {
+            "id": "6",
+            "name": "Wenkbrauw microblading",
+            "description": "Op maat gemaakt design, natuurlijk effect, houdt 12–18 maanden",
+            "price": "vanaf 600 RON",
+            "duration": "2u",
+            "category": "Gezicht"
+          }
+        ]
+      },
+      "gallery": {
+        "title": "Galerij",
+        "subtitle": "Het werk van ons team",
+        "imageAlt": "Galerij {number}"
+      },
+      "booking": {
+        "title": "Boeking",
+        "subtitle": "Vul het formulier in en wij nemen contact op om te bevestigen",
+        "form": {
+          "fullName": "Volledige naam",
+          "phone": "Telefoon",
+          "service": "Dienst",
+          "preferredDate": "Gewenste datum",
+          "time": "Tijd",
+          "submit": "Boeking versturen",
+          "submitted": "Boeking verzonden ✓"
+        }
+      }
+    },
+    "auto": {
+      "metadata": {
+        "title": "AutoPro — Autogarage",
+        "description": "Betrouwbare autogarage met computerdiagnostiek en garantie op al het werk."
+      },
+      "brand": {
+        "name": "Auto",
+        "nameHighlight": "Pro"
+      },
+      "nav": {
+        "home": "Home",
+        "services": "Diensten",
+        "pricing": "Prijzen",
+        "contact": "Contact",
+        "callNow": "Nu bellen"
+      },
+      "footer": {
+        "description": "RAR-geautoriseerde autogarage. Meer dan 15 jaar ervaring.",
+        "hours": {
+          "title": "Openingstijden",
+          "value": "Ma–Vr: 08:00–18:00 · Za: 08:00–14:00"
+        },
+        "contact": {
+          "title": "Contact",
+          "value": "90 Timisoara Blvd, Bucharest · +40 745 222 333"
+        },
+        "copyright": "© 2026 AutoPro. Demoproject."
+      },
+      "home": {
+        "hero": {
+          "badge": "RAR Geautoriseerd",
+          "titleLine1": "Betrouwbare",
+          "titleLine2": "autogarage",
+          "titleHighlight": "waar u op kunt rekenen",
+          "subtitle": "Computerdiagnostiek, mechanische en elektronische reparaties, APK, carrosserie & spuitwerk. Garantie op al het werk.",
+          "ctaBook": "Afspraak maken",
+          "ctaPricing": "Prijzen bekijken"
+        },
+        "features": [
+          {
+            "title": "12 maanden garantie",
+            "description": "Op onderdelen en arbeid"
+          },
+          {
+            "title": "Snelle planning",
+            "description": "Tijdslot beschikbaar binnen 24u"
+          },
+          {
+            "title": "Modern materiaal",
+            "description": "Bosch KTS-diagnostiek"
+          }
+        ],
+        "servicesTitle": "Belangrijkste",
+        "servicesHighlight": "diensten"
+      },
+      "services": {
+        "title": "Alle",
+        "titleHighlight": "diensten",
+        "subtitle": "Complete service voor auto's en SUV's",
+        "book": "Boeken →",
+        "items": [
+          {
+            "id": "1",
+            "name": "Volledige service",
+            "description": "Olieverversing, filters, 50+ punten inspectie, digitaal rapport",
+            "price": "vanaf 350 RON",
+            "icon": "🔧"
+          },
+          {
+            "id": "2",
+            "name": "Computerdiagnostiek",
+            "description": "OBD-II-scan, foutidentificatie, reparatieofferte",
+            "price": "150 RON",
+            "icon": "💻"
+          },
+          {
+            "id": "3",
+            "name": "Remmen & ophanging",
+            "description": "Remblokken, schijven, schokdempers, uitlijnen",
+            "price": "vanaf 200 RON",
+            "icon": "🛞"
+          },
+          {
+            "id": "4",
+            "name": "Airco",
+            "description": "Freon bijvullen, desinfectie, lekcontrole",
+            "price": "vanaf 180 RON",
+            "icon": "❄️"
+          },
+          {
+            "id": "5",
+            "name": "Carrosserie & spuitwerk",
+            "description": "Carrosserie rechtzetten, gedeeltelijk/volledig spuiten, polijsten",
+            "price": "op aanvraag",
+            "icon": "🎨"
+          },
+          {
+            "id": "6",
+            "name": "APK & verzekering",
+            "description": "Snelle APK-planning, hulp bij RCA/CASCO-dossiers",
+            "price": "vanaf 90 RON",
+            "icon": "📋"
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Prijs",
+        "titleHighlight": "lijst",
+        "subtitle": "Indicatieve prijzen. Definitieve offerte na diagnostiek.",
+        "columns": {
+          "service": "Dienst",
+          "price": "Prijs",
+          "duration": "Duur"
+        },
+        "disclaimer": "* Prijzen exclusief BTW. Onderdelen apart gefactureerd.",
+        "items": [
+          { "service": "Standaard service", "price": "350 RON", "time": "2–3 uur" },
+          { "service": "Premium service", "price": "550 RON", "time": "3–4 uur" },
+          { "service": "Remblokken vervangen", "price": "200 RON", "time": "1 uur" },
+          { "service": "Remschijven vervangen", "price": "280 RON", "time": "1,5 uur" },
+          { "service": "Uitlijnen", "price": "120 RON", "time": "45 min" },
+          { "service": "Banden wisselen (4 st)", "price": "80 RON", "time": "30 min" },
+          { "service": "Volledige diagnostiek", "price": "150 RON", "time": "30 min" },
+          { "service": "Auto APK", "price": "90 RON", "time": "20 min" }
+        ]
+      },
+      "contact": {
+        "title": "Contact &",
+        "titleHighlight": "boeking",
+        "form": {
+          "name": "Naam",
+          "phone": "Telefoon",
+          "carModel": "Automerk & model",
+          "year": "Bouwjaar",
+          "issue": "Beschrijf het probleem...",
+          "submit": "Aanvraag versturen",
+          "submitted": "Aanvraag verzonden ✓"
+        },
+        "info": {
+          "address": "Adres",
+          "addressValue": "90 Timisoara Blvd, Sector 6, Bucharest",
+          "phone": "Telefoon",
+          "phoneValue": "+40 745 222 333",
+          "email": "E-mail",
+          "emailValue": "service@autopro.ro",
+          "hours": "Openingstijden",
+          "hoursValue": "Ma–Vr: 08:00–18:00 · Za: 08:00–14:00"
+        }
+      }
+    },
+    "clinica": {
+      "metadata": {
+        "title": "DentaSmile — Tandartspraktijk",
+        "description": "Premium tandartspraktijk met state-of-the-art digitale apparatuur."
+      },
+      "brand": {
+        "name": "Denta",
+        "nameHighlight": "Smile"
+      },
+      "nav": {
+        "home": "Home",
+        "services": "Diensten",
+        "team": "Team",
+        "booking": "Boeking",
+        "bookNow": "Nu boeken"
+      },
+      "footer": {
+        "description": "Premium tandartspraktijk. State-of-the-art technologie.",
+        "hours": {
+          "title": "Openingstijden",
+          "value": "Ma–Vr: 08:00–20:00 · Za: 09:00–14:00"
+        },
+        "contact": {
+          "title": "Contact",
+          "value": "111 Floreasca Road, Bucharest · +40 755 444 555"
+        },
+        "copyright": "© 2026 DentaSmile. Demoproject."
+      },
+      "home": {
+        "badge": "Gratis consult",
+        "titleLine1": "Uw glimlach,",
+        "titleLine2": "onze prioriteit",
+        "subtitle": "Premium tandartspraktijk met state-of-the-art digitale apparatuur. Implantaten, onzichtbare orthodontie, esthetische tandheelkunde — alles onder één dak.",
+        "ctaBook": "Consult boeken",
+        "ctaServices": "Diensten",
+        "features": [
+          {
+            "title": "Maximale sterilisatie",
+            "description": "Europese sterilisatie- en desinfectieprotocollen"
+          },
+          {
+            "title": "Digitale technologie",
+            "description": "3D intraorale scanner, digitale röntgenfoto's, CAD/CAM"
+          },
+          {
+            "title": "Totaal comfort",
+            "description": "Lokale anesthesie, bewuste sedatie, ontspannende omgeving"
+          }
+        ],
+        "servicesTitle": "Belangrijkste diensten",
+        "viewAll": "Alle diensten bekijken →",
+        "imageAlt": "DentaSmile praktijk"
+      },
+      "services": {
+        "title": "Tandheelkundige diensten",
+        "subtitle": "Complete behandelingen voor een gezonde, mooie glimlach",
+        "book": "Boeken →",
+        "items": [
+          {
+            "id": "1",
+            "name": "Consult & behandelplan",
+            "description": "Volledig onderzoek, digitale röntgenfoto, gepersonaliseerd plan",
+            "price": "Gratis"
+          },
+          {
+            "id": "2",
+            "name": "Tanden bleken",
+            "description": "Professionele Zoom-bleaching, zichtbare resultaten vanaf de eerste sessie",
+            "price": "vanaf 800 RON"
+          },
+          {
+            "id": "3",
+            "name": "Tandimplantaat",
+            "description": "Straumann-implantaat, keramische kroon, 10 jaar garantie",
+            "price": "vanaf 3.500 RON"
+          },
+          {
+            "id": "4",
+            "name": "Onzichtbare orthodontie",
+            "description": "Transparante aligners, digitale monitoring, voorspelbare resultaten",
+            "price": "vanaf 8.000 RON"
+          },
+          {
+            "id": "5",
+            "name": "Tandfacings",
+            "description": "E-max keramiek, digitaal Smile design, natuurlijk uiterlijk",
+            "price": "vanaf 1.800 RON/tand"
+          },
+          {
+            "id": "6",
+            "name": "Wortelkanaalbehandeling",
+            "description": "Endodontische microscoop, lokale anesthesie, minimaal ongemak",
+            "price": "vanaf 400 RON"
+          }
+        ]
+      },
+      "team": {
+        "title": "Medisch team",
+        "subtitle": "Gespecialiseerde artsen met internationale ervaring",
+        "members": [
+          {
+            "id": "1",
+            "name": "Dr. Ana Marinescu",
+            "role": "Tandarts",
+            "specialty": "Implantologie & esthetische tandheelkunde"
+          },
+          {
+            "id": "2",
+            "name": "Dr. Mihai Popescu",
+            "role": "Orthodontist",
+            "specialty": "Onzichtbare & klassieke orthodontie"
+          },
+          {
+            "id": "3",
+            "name": "Dr. Elena Radu",
+            "role": "Tandarts",
+            "specialty": "Endodontie & prothetiek"
+          },
+          {
+            "id": "4",
+            "name": "Dr. Cristian Ionescu",
+            "role": "Kaakchirurg",
+            "specialty": "Mondchirurgie & implantologie"
+          }
+        ]
+      },
+      "booking": {
+        "title": "Boeking",
+        "subtitle": "Eerste consult is gratis",
+        "form": {
+          "fullName": "Volledige naam",
+          "phone": "Telefoon",
+          "email": "E-mail",
+          "service": "Gewenste dienst",
+          "freeConsultation": "Gratis consult",
+          "date": "Datum",
+          "time": "Tijd",
+          "notes": "Opmerkingen (optioneel)",
+          "submit": "Boeking bevestigen",
+          "submitted": "Boeking verzonden ✓"
+        }
+      }
+    }
+  }
+}
