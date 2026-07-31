@@ -9,9 +9,9 @@ export const siteConfig = {
     address: "Str. Victoriei 10, București, România",
   },
   social: {
-    facebook: "https://facebook.com/nexusstudio",
-    instagram: "https://instagram.com/nexusstudio",
-    linkedin: "https://linkedin.com/company/nexusstudio",
-    twitter: "https://twitter.com/nexusstudio",
+    facebook: "https://facebook.com/",
+    instagram: "https://instagram.com/",
+    linkedin: "https://linkedin.com/company/",
+    twitter: "https://twitter.com/",
   },
 } as const;
