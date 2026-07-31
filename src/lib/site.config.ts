@@ -5,7 +5,6 @@ export const siteConfig = {
   contact: {
     phone: "0765038162",
     email: "contactnexusstudio96@gmail.com",
-    fromEmail: "contact@nexusstudio.digital",
     whatsapp: "40765038162",
     address: "Str. Victoriei 10, București, România",
   },

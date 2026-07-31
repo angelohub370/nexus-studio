@@ -47,19 +47,37 @@
   "nav": {
     "about": "Über uns",
     "services": "Leistungen",
+    "projects": "Projekte",
+    "pricing": "Preise",
     "process": "Prozess",
     "portfolio": "Portfolio",
     "contact": "Kontakt"
   },
   "hero": {
     "badge": "Webdesign- & Entwicklungsagentur",
-    "titleWords": ["Wir", "entwickeln", "Websites", "und", "Online-Shops", "die"],
+    "titleWords": [
+      "Wir",
+      "entwickeln",
+      "Websites",
+      "und",
+      "Online-Shops",
+      "die"
+    ],
     "titleHighlight": "Kunden bringen.",
     "subtitle": "Präzises Design, performanter Code, messbare Ergebnisse. Wir verwandeln Ihre digitale Vision in Erlebnisse, die konvertieren.",
     "metrics": {
-      "design": { "label": "Design", "value": "98%" },
-      "performance": { "label": "Performance", "value": "97" },
-      "conversions": { "label": "Conversions", "value": "+42%" }
+      "design": {
+        "label": "Design",
+        "value": "98%"
+      },
+      "performance": {
+        "label": "Performance",
+        "value": "97"
+      },
+      "conversions": {
+        "label": "Conversions",
+        "value": "+42%"
+      }
     }
   },
   "marquee": {
@@ -187,10 +205,26 @@
     }
   },
   "stats": {
-    "responsive": { "value": "100", "suffix": "%", "label": "Responsiv" },
-    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
-    "support": { "value": "24/7", "label": "Support" },
-    "delivery": { "value": "Schnell", "label": "Lieferung" }
+    "projects": {
+      "value": 25,
+      "suffix": "+",
+      "label": "Abgeschlossene Projekte"
+    },
+    "clients": {
+      "value": 99,
+      "suffix": "%",
+      "label": "Zufriedene Kunden"
+    },
+    "response": {
+      "value": 24,
+      "suffix": "h",
+      "label": "Durchschn. Antwortzeit"
+    },
+    "experience": {
+      "value": 5,
+      "suffix": "+",
+      "label": "Jahre Erfahrung"
+    }
   },
   "testimonials": {
     "label": "Referenzen",
@@ -288,27 +322,60 @@
       "company": {
         "title": "Unternehmen",
         "links": [
-          { "label": "Über uns", "href": "#despre" },
-          { "label": "Leistungen", "href": "#servicii" },
-          { "label": "Portfolio", "href": "#portofoliu" },
-          { "label": "Kontakt", "href": "#contact" }
+          {
+            "label": "Über uns",
+            "href": "#despre"
+          },
+          {
+            "label": "Leistungen",
+            "href": "#servicii"
+          },
+          {
+            "label": "Portfolio",
+            "href": "#portofoliu"
+          },
+          {
+            "label": "Kontakt",
+            "href": "#contact"
+          }
         ]
       },
       "services": {
         "title": "Leistungen",
         "links": [
-          { "label": "Website", "href": "#servicii" },
-          { "label": "E-Commerce", "href": "#servicii" },
-          { "label": "Landingpage", "href": "#servicii" },
-          { "label": "SEO", "href": "#servicii" }
+          {
+            "label": "Website",
+            "href": "#servicii"
+          },
+          {
+            "label": "E-Commerce",
+            "href": "#servicii"
+          },
+          {
+            "label": "Landingpage",
+            "href": "#servicii"
+          },
+          {
+            "label": "SEO",
+            "href": "#servicii"
+          }
         ]
       },
       "legal": {
         "title": "Rechtliches",
         "links": [
-          { "label": "AGB", "href": "#" },
-          { "label": "Datenschutz", "href": "#" },
-          { "label": "Cookies", "href": "#" }
+          {
+            "label": "AGB",
+            "href": "#"
+          },
+          {
+            "label": "Datenschutz",
+            "href": "#"
+          },
+          {
+            "label": "Cookies",
+            "href": "#"
+          }
         ]
       }
     },
@@ -345,11 +412,19 @@
         "description": "Zeitgenossenmode für Frauen, die Qualität und zeitloses Design schätzen.",
         "shop": {
           "title": "Shop",
-          "links": ["Neue Kollektionen", "Bestseller", "Sale"]
+          "links": [
+            "Neue Kollektionen",
+            "Bestseller",
+            "Sale"
+          ]
         },
         "help": {
           "title": "Hilfe",
-          "links": ["Versand & Rückgabe", "Größentabelle", "Kontakt"]
+          "links": [
+            "Versand & Rückgabe",
+            "Größentabelle",
+            "Kontakt"
+          ]
         },
         "contact": {
           "title": "Kontakt",
@@ -458,9 +533,18 @@
         "paragraph1": "ModaLine entstand aus der Leidenschaft für zeitloses Design und außergewöhnliche Materialien. Jedes Stück unserer Kollektionen ist sorgfältig ausgewählt, um Premium-Qualität zu erschwinglichen Preisen zu bieten.",
         "paragraph2": "Wir arbeiten mit Werkstätten in ganz Europa zusammen, um einzigartige, nachhaltige und vielseitige Pieces zu schaffen — vom Büro bis zu besonderen Anlässen.",
         "stats": [
-          { "value": "2019", "label": "Gegründet" },
-          { "value": "12K+", "label": "Kundinnen" },
-          { "value": "100%", "label": "Wolle & Baumwolle" }
+          {
+            "value": "2019",
+            "label": "Gegründet"
+          },
+          {
+            "value": "12K+",
+            "label": "Kundinnen"
+          },
+          {
+            "value": "100%",
+            "label": "Wolle & Baumwolle"
+          }
         ],
         "imageAlt": "ModaLine Atelier"
       },
@@ -905,14 +989,46 @@
         },
         "disclaimer": "* Preise zzgl. MwSt. Ersatzteile werden separat berechnet.",
         "items": [
-          { "service": "Standard-Service", "price": "350 RON", "time": "2–3 Stunden" },
-          { "service": "Premium-Service", "price": "550 RON", "time": "3–4 Stunden" },
-          { "service": "Bremsbelagwechsel", "price": "200 RON", "time": "1 Stunde" },
-          { "service": "Bremsscheibenwechsel", "price": "280 RON", "time": "1,5 Stunden" },
-          { "service": "Achsvermessung", "price": "120 RON", "time": "45 Min." },
-          { "service": "Reifenwechsel (4 Stk.)", "price": "80 RON", "time": "30 Min." },
-          { "service": "Vollständige Diagnose", "price": "150 RON", "time": "30 Min." },
-          { "service": "Fahrzeug-TÜV", "price": "90 RON", "time": "20 Min." }
+          {
+            "service": "Standard-Service",
+            "price": "350 RON",
+            "time": "2–3 Stunden"
+          },
+          {
+            "service": "Premium-Service",
+            "price": "550 RON",
+            "time": "3–4 Stunden"
+          },
+          {
+            "service": "Bremsbelagwechsel",
+            "price": "200 RON",
+            "time": "1 Stunde"
+          },
+          {
+            "service": "Bremsscheibenwechsel",
+            "price": "280 RON",
+            "time": "1,5 Stunden"
+          },
+          {
+            "service": "Achsvermessung",
+            "price": "120 RON",
+            "time": "45 Min."
+          },
+          {
+            "service": "Reifenwechsel (4 Stk.)",
+            "price": "80 RON",
+            "time": "30 Min."
+          },
+          {
+            "service": "Vollständige Diagnose",
+            "price": "150 RON",
+            "time": "30 Min."
+          },
+          {
+            "service": "Fahrzeug-TÜV",
+            "price": "90 RON",
+            "time": "20 Min."
+          }
         ]
       },
       "contact": {
@@ -1081,6 +1197,145 @@
           "submitted": "Termin gesendet ✓"
         }
       }
+    }
+  },
+  "trustBadges": {
+    "items": {
+      "ssl": {
+        "label": "SSL Sicher"
+      },
+      "invoice": {
+        "label": "Rechnung verfügbar"
+      },
+      "contract": {
+        "label": "Vertrag inklusive"
+      },
+      "support": {
+        "label": "Schneller Support"
+      },
+      "hosting": {
+        "label": "Hosting inklusive"
+      }
+    }
+  },
+  "featuredProjects": {
+    "label": "Ausgewählte Projekte",
+    "title": "Arbeit, die Ergebnisse liefert",
+    "description": "Premium-Websites für echte Unternehmen — entwickelt, um Besucher in Kunden zu verwandeln.",
+    "viewProject": "Projekt ansehen",
+    "items": {
+      "fashion": {
+        "title": "Fashion Store",
+        "category": "E-Commerce",
+        "description": "Moderner Online-Shop mit kuratierten Kollektionen und mobilem Einkaufserlebnis."
+      },
+      "restaurant": {
+        "title": "Restaurant Website",
+        "category": "Gastronomie",
+        "description": "Elegante Restaurant-Website mit Menü, Reservierungssystem und Markengeschichte."
+      },
+      "clinica": {
+        "title": "Zahnklinik",
+        "category": "Gesundheit",
+        "description": "Vertrauenswürdige Klinik-Website mit Online-Terminbuchung und Service-Seiten."
+      },
+      "gym": {
+        "title": "Fitness Studio",
+        "category": "Fitness",
+        "description": "Energiegeladene Fitness-Plattform mit Mitgliedschaften und Kursplänen."
+      },
+      "realestate": {
+        "title": "Immobilienplattform",
+        "category": "Immobilien",
+        "description": "Immobilienportal mit Filtern, Kartenintegration und Lead-Formularen."
+      },
+      "booking": {
+        "title": "Buchungsplattform",
+        "category": "Dienstleistungen",
+        "description": "Terminbuchungssystem mit Kalender, Serviceauswahl und Bestätigungen."
+      }
+    }
+  },
+  "pricing": {
+    "label": "Preise",
+    "title": "Transparente Pakete",
+    "description": "Klare Preise ohne versteckte Kosten. Jedes Paket ist auf Performance und Conversions ausgelegt.",
+    "from": "Ab",
+    "popular": "Am beliebtesten",
+    "cta": "Angebot anfordern",
+    "packages": {
+      "landing": {
+        "name": "Landing Page",
+        "price": "€200",
+        "features": {
+          "responsive": "Responsives Design",
+          "contact": "Kontaktformular",
+          "seo": "Basis-SEO",
+          "speed": "Schnelles Laden"
+        }
+      },
+      "website": {
+        "name": "Präsentationswebsite",
+        "price": "€400",
+        "features": {
+          "pages": "Bis zu 10 Seiten",
+          "cms": "CMS",
+          "contact": "Kontaktformular",
+          "seo": "SEO Ready",
+          "mobile": "Mobilfreundlich"
+        }
+      },
+      "store": {
+        "name": "Online-Shop",
+        "price": "€1000",
+        "features": {
+          "products": "Unbegrenzte Produkte",
+          "payments": "Zahlungen",
+          "delivery": "Lieferung",
+          "admin": "Admin-Panel",
+          "seo": "SEO",
+          "analytics": "Analytics"
+        }
+      }
+    }
+  },
+  "calculator": {
+    "label": "Preisrechner",
+    "title": "Investition schätzen",
+    "description": "Erhalten Sie sofort eine Preisspanne basierend auf Ihren Anforderungen.",
+    "yes": "Ja",
+    "no": "Nein",
+    "cta": "Angebot anfordern",
+    "questions": {
+      "type": {
+        "label": "Was benötigen Sie?",
+        "options": {
+          "landing": "Landing Page",
+          "website": "Präsentationswebsite",
+          "store": "Online-Shop",
+          "custom": "Individuelle Plattform"
+        }
+      },
+      "pages": {
+        "label": "Wie viele Seiten?",
+        "unit": "Seiten"
+      },
+      "hosting": {
+        "label": "Hosting benötigt?"
+      },
+      "seo": {
+        "label": "SEO benötigt?"
+      },
+      "payments": {
+        "label": "Zahlungsintegration?"
+      },
+      "multilingual": {
+        "label": "Mehrsprachigkeit?"
+      }
+    },
+    "result": {
+      "label": "Geschätzte Investition",
+      "note": "Dies ist nur eine Schätzung. Der endgültige Preis hängt von der Projektkomplexität ab."
     }
   }
 }

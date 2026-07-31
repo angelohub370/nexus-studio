@@ -14,6 +14,8 @@ import { EASE } from "@/lib/motion";
 const navLinks = [
   { key: "about", href: "#despre" },
   { key: "services", href: "#servicii" },
+  { key: "projects", href: "#proiecte" },
+  { key: "pricing", href: "#preturi" },
   { key: "process", href: "#proces" },
   { key: "portfolio", href: "#portofoliu" },
   { key: "contact", href: "#contact" },

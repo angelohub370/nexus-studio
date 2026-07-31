@@ -14,7 +14,3 @@ export function getResendApiKey(): string | undefined {
 export function getContactToEmail(): string | undefined {
   return readEnv("CONTACT_TO_EMAIL");
 }
-
-export function getResendFromEmail(): string | undefined {
-  return readEnv("RESEND_FROM_EMAIL");
-}

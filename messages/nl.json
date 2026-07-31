@@ -47,19 +47,38 @@
   "nav": {
     "about": "Over ons",
     "services": "Diensten",
+    "projects": "Projecten",
+    "pricing": "Prijzen",
     "process": "Proces",
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
   "hero": {
     "badge": "Webdesign- & ontwikkelingsbureau",
-    "titleWords": ["Wij", "bouwen", "websites", "en", "online", "webshops", "die"],
+    "titleWords": [
+      "Wij",
+      "bouwen",
+      "websites",
+      "en",
+      "online",
+      "webshops",
+      "die"
+    ],
     "titleHighlight": "klanten opleveren.",
     "subtitle": "Precisie-design, performante code, meetbare resultaten. Wij maken van uw digitale visie ervaringen die converteren.",
     "metrics": {
-      "design": { "label": "Design", "value": "98%" },
-      "performance": { "label": "Prestaties", "value": "97" },
-      "conversions": { "label": "Conversies", "value": "+42%" }
+      "design": {
+        "label": "Design",
+        "value": "98%"
+      },
+      "performance": {
+        "label": "Prestaties",
+        "value": "97"
+      },
+      "conversions": {
+        "label": "Conversies",
+        "value": "+42%"
+      }
     }
   },
   "marquee": {
@@ -187,10 +206,26 @@
     }
   },
   "stats": {
-    "responsive": { "value": "100", "suffix": "%", "label": "Responsive" },
-    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
-    "support": { "value": "24/7", "label": "Support" },
-    "delivery": { "value": "Snel", "label": "Levering" }
+    "projects": {
+      "value": 25,
+      "suffix": "+",
+      "label": "Voltooide projecten"
+    },
+    "clients": {
+      "value": 99,
+      "suffix": "%",
+      "label": "Tevreden klanten"
+    },
+    "response": {
+      "value": 24,
+      "suffix": "h",
+      "label": "Gem. reactietijd"
+    },
+    "experience": {
+      "value": 5,
+      "suffix": "+",
+      "label": "Jaar ervaring"
+    }
   },
   "testimonials": {
     "label": "Getuigenissen",
@@ -288,27 +323,60 @@
       "company": {
         "title": "Bedrijf",
         "links": [
-          { "label": "Over ons", "href": "#despre" },
-          { "label": "Diensten", "href": "#servicii" },
-          { "label": "Portfolio", "href": "#portofoliu" },
-          { "label": "Contact", "href": "#contact" }
+          {
+            "label": "Over ons",
+            "href": "#despre"
+          },
+          {
+            "label": "Diensten",
+            "href": "#servicii"
+          },
+          {
+            "label": "Portfolio",
+            "href": "#portofoliu"
+          },
+          {
+            "label": "Contact",
+            "href": "#contact"
+          }
         ]
       },
       "services": {
         "title": "Diensten",
         "links": [
-          { "label": "Website", "href": "#servicii" },
-          { "label": "E-commerce", "href": "#servicii" },
-          { "label": "Landing Page", "href": "#servicii" },
-          { "label": "SEO", "href": "#servicii" }
+          {
+            "label": "Website",
+            "href": "#servicii"
+          },
+          {
+            "label": "E-commerce",
+            "href": "#servicii"
+          },
+          {
+            "label": "Landing Page",
+            "href": "#servicii"
+          },
+          {
+            "label": "SEO",
+            "href": "#servicii"
+          }
         ]
       },
       "legal": {
         "title": "Juridisch",
         "links": [
-          { "label": "Voorwaarden", "href": "#" },
-          { "label": "Privacy", "href": "#" },
-          { "label": "Cookies", "href": "#" }
+          {
+            "label": "Voorwaarden",
+            "href": "#"
+          },
+          {
+            "label": "Privacy",
+            "href": "#"
+          },
+          {
+            "label": "Cookies",
+            "href": "#"
+          }
         ]
       }
     },
@@ -345,11 +413,19 @@
         "description": "Eigentijdse mode voor vrouwen die kwaliteit en tijdloos design waarderen.",
         "shop": {
           "title": "Winkel",
-          "links": ["Nieuwe collecties", "Bestsellers", "Sale"]
+          "links": [
+            "Nieuwe collecties",
+            "Bestsellers",
+            "Sale"
+          ]
         },
         "help": {
           "title": "Hulp",
-          "links": ["Verzending & retour", "Maattabel", "Contact"]
+          "links": [
+            "Verzending & retour",
+            "Maattabel",
+            "Contact"
+          ]
         },
         "contact": {
           "title": "Contact",
@@ -458,9 +534,18 @@
         "paragraph1": "ModaLine is geboren uit een passie voor tijdloos design en uitzonderlijke materialen. Elk stuk in onze collecties is zorgvuldig geselecteerd om premium kwaliteit tegen toegankelijke prijzen te bieden.",
         "paragraph2": "Wij werken samen met ateliers door heel Europa om unieke, duurzame en veelzijdige stukken te creëren — van kantoor tot speciale gelegenheden.",
         "stats": [
-          { "value": "2019", "label": "Opgericht" },
-          { "value": "12K+", "label": "Klanten" },
-          { "value": "100%", "label": "Wol & katoen" }
+          {
+            "value": "2019",
+            "label": "Opgericht"
+          },
+          {
+            "value": "12K+",
+            "label": "Klanten"
+          },
+          {
+            "value": "100%",
+            "label": "Wol & katoen"
+          }
         ],
         "imageAlt": "ModaLine atelier"
       },
@@ -905,14 +990,46 @@
         },
         "disclaimer": "* Prijzen exclusief BTW. Onderdelen apart gefactureerd.",
         "items": [
-          { "service": "Standaard service", "price": "350 RON", "time": "2–3 uur" },
-          { "service": "Premium service", "price": "550 RON", "time": "3–4 uur" },
-          { "service": "Remblokken vervangen", "price": "200 RON", "time": "1 uur" },
-          { "service": "Remschijven vervangen", "price": "280 RON", "time": "1,5 uur" },
-          { "service": "Uitlijnen", "price": "120 RON", "time": "45 min" },
-          { "service": "Banden wisselen (4 st)", "price": "80 RON", "time": "30 min" },
-          { "service": "Volledige diagnostiek", "price": "150 RON", "time": "30 min" },
-          { "service": "Auto APK", "price": "90 RON", "time": "20 min" }
+          {
+            "service": "Standaard service",
+            "price": "350 RON",
+            "time": "2–3 uur"
+          },
+          {
+            "service": "Premium service",
+            "price": "550 RON",
+            "time": "3–4 uur"
+          },
+          {
+            "service": "Remblokken vervangen",
+            "price": "200 RON",
+            "time": "1 uur"
+          },
+          {
+            "service": "Remschijven vervangen",
+            "price": "280 RON",
+            "time": "1,5 uur"
+          },
+          {
+            "service": "Uitlijnen",
+            "price": "120 RON",
+            "time": "45 min"
+          },
+          {
+            "service": "Banden wisselen (4 st)",
+            "price": "80 RON",
+            "time": "30 min"
+          },
+          {
+            "service": "Volledige diagnostiek",
+            "price": "150 RON",
+            "time": "30 min"
+          },
+          {
+            "service": "Auto APK",
+            "price": "90 RON",
+            "time": "20 min"
+          }
         ]
       },
       "contact": {
@@ -1081,6 +1198,145 @@
           "submitted": "Boeking verzonden ✓"
         }
       }
+    }
+  },
+  "trustBadges": {
+    "items": {
+      "ssl": {
+        "label": "SSL Beveiligd"
+      },
+      "invoice": {
+        "label": "Factuur beschikbaar"
+      },
+      "contract": {
+        "label": "Contract inbegrepen"
+      },
+      "support": {
+        "label": "Snelle support"
+      },
+      "hosting": {
+        "label": "Hosting inbegrepen"
+      }
+    }
+  },
+  "featuredProjects": {
+    "label": "Uitgelichte projecten",
+    "title": "Werk dat resultaat oplevert",
+    "description": "Premium websites voor echte bedrijven — ontworpen om bezoekers om te zetten in klanten.",
+    "viewProject": "Bekijk project",
+    "items": {
+      "fashion": {
+        "title": "Mode Winkel",
+        "category": "E-commerce",
+        "description": "Moderne webshop met gecureerde collecties en soepele checkout."
+      },
+      "restaurant": {
+        "title": "Restaurant Website",
+        "category": "Horeca",
+        "description": "Elegante site met menu, reserveringen en merkverhaal."
+      },
+      "clinica": {
+        "title": "Tandartspraktijk",
+        "category": "Gezondheidszorg",
+        "description": "Vertrouwde kliniekwebsite met online afspraken en dienstenpagina's."
+      },
+      "gym": {
+        "title": "Sportschool Website",
+        "category": "Fitness",
+        "description": "Energieke platform met lidmaatschappen, roosters en geoptimaliseerde CTA's."
+      },
+      "realestate": {
+        "title": "Vastgoedplatform",
+        "category": "Vastgoed",
+        "description": "Woningaanbod met filters, kaartintegratie en leadformulieren."
+      },
+      "booking": {
+        "title": "Boekingsplatform",
+        "category": "Diensten",
+        "description": "Afspraaksysteem met kalender, dienstenkeuze en bevestigingen."
+      }
+    }
+  },
+  "pricing": {
+    "label": "Prijzen",
+    "title": "Transparante pakketten",
+    "description": "Duidelijke prijzen zonder verborgen kosten. Elk pakket is gebouwd voor conversies.",
+    "from": "Vanaf",
+    "popular": "Meest populair",
+    "cta": "Offerte aanvragen",
+    "packages": {
+      "landing": {
+        "name": "Landing Page",
+        "price": "€200",
+        "features": {
+          "responsive": "Responsive design",
+          "contact": "Contactformulier",
+          "seo": "Basis SEO",
+          "speed": "Snel laden"
+        }
+      },
+      "website": {
+        "name": "Presentatiewebsite",
+        "price": "€400",
+        "features": {
+          "pages": "Tot 10 pagina's",
+          "cms": "CMS",
+          "contact": "Contactformulier",
+          "seo": "SEO Ready",
+          "mobile": "Mobielvriendelijk"
+        }
+      },
+      "store": {
+        "name": "Webwinkel",
+        "price": "€1000",
+        "features": {
+          "products": "Onbeperkte producten",
+          "payments": "Betalingen",
+          "delivery": "Levering",
+          "admin": "Adminpaneel",
+          "seo": "SEO",
+          "analytics": "Analytics"
+        }
+      }
+    }
+  },
+  "calculator": {
+    "label": "Prijs calculator",
+    "title": "Schat uw investering",
+    "description": "Krijg direct een prijsrange op basis van uw vereisten.",
+    "yes": "Ja",
+    "no": "Nee",
+    "cta": "Offerte aanvragen",
+    "questions": {
+      "type": {
+        "label": "Wat heeft u nodig?",
+        "options": {
+          "landing": "Landing Page",
+          "website": "Presentatiewebsite",
+          "store": "Webwinkel",
+          "custom": "Custom platform"
+        }
+      },
+      "pages": {
+        "label": "Hoeveel pagina's?",
+        "unit": "pagina's"
+      },
+      "hosting": {
+        "label": "Hosting nodig?"
+      },
+      "seo": {
+        "label": "SEO nodig?"
+      },
+      "payments": {
+        "label": "Betalingsintegratie?"
+      },
+      "multilingual": {
+        "label": "Meertalige ondersteuning?"
+      }
+    },
+    "result": {
+      "label": "Geschatte investering",
+      "note": "Dit is slechts een schatting. De uiteindelijke prijs hangt af van de complexiteit."
     }
   }
 }

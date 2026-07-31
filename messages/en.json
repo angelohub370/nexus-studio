@@ -47,6 +47,8 @@
   "nav": {
     "about": "About",
     "services": "Services",
+    "projects": "Projects",
+    "pricing": "Pricing",
     "process": "Process",
     "portfolio": "Portfolio",
     "contact": "Contact"
@@ -75,6 +77,15 @@
       "Figma",
       "Stripe"
     ]
+  },
+  "trustBadges": {
+    "items": {
+      "ssl": { "label": "SSL Secure" },
+      "invoice": { "label": "Invoice Available" },
+      "contract": { "label": "Contract Included" },
+      "support": { "label": "Fast Support" },
+      "hosting": { "label": "Hosting Included" }
+    }
   },
   "about": {
     "label": "About",
@@ -186,11 +197,123 @@
       }
     }
   },
+  "featuredProjects": {
+    "label": "Featured Projects",
+    "title": "Work that drives results",
+    "description": "Premium websites built for real businesses — designed to convert visitors into customers.",
+    "viewProject": "View Project",
+    "items": {
+      "fashion": {
+        "title": "Fashion Store",
+        "category": "E-commerce",
+        "description": "Modern online store with curated collections, seamless checkout, and mobile-first shopping experience."
+      },
+      "restaurant": {
+        "title": "Restaurant Website",
+        "category": "Hospitality",
+        "description": "Elegant restaurant site with menu showcase, reservation system, and atmospheric brand storytelling."
+      },
+      "clinica": {
+        "title": "Dental Clinic",
+        "category": "Healthcare",
+        "description": "Trust-focused clinic website with online booking, service pages, and patient-friendly navigation."
+      },
+      "gym": {
+        "title": "Gym Website",
+        "category": "Fitness",
+        "description": "High-energy fitness platform with membership plans, class schedules, and conversion-optimized CTAs."
+      },
+      "realestate": {
+        "title": "Real Estate Platform",
+        "category": "Real Estate",
+        "description": "Property listing platform with advanced filters, map integration, and lead capture forms."
+      },
+      "booking": {
+        "title": "Booking Platform",
+        "category": "Services",
+        "description": "Appointment booking system with calendar integration, service selection, and automated confirmations."
+      }
+    }
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Transparent packages",
+    "description": "Clear pricing with no hidden fees. Every package is built for performance and conversions.",
+    "from": "Starting from",
+    "popular": "Most popular",
+    "cta": "Request Quote",
+    "packages": {
+      "landing": {
+        "name": "Landing Page",
+        "price": "€200",
+        "features": {
+          "responsive": "Responsive Design",
+          "contact": "Contact Form",
+          "seo": "Basic SEO",
+          "speed": "Fast Loading"
+        }
+      },
+      "website": {
+        "name": "Presentation Website",
+        "price": "€400",
+        "features": {
+          "pages": "Up to 10 Pages",
+          "cms": "CMS",
+          "contact": "Contact Form",
+          "seo": "SEO Ready",
+          "mobile": "Mobile Friendly"
+        }
+      },
+      "store": {
+        "name": "Online Store",
+        "price": "€1000",
+        "features": {
+          "products": "Unlimited Products",
+          "payments": "Payments",
+          "delivery": "Delivery",
+          "admin": "Admin Panel",
+          "seo": "SEO",
+          "analytics": "Analytics"
+        }
+      }
+    }
+  },
+  "calculator": {
+    "label": "Price Calculator",
+    "title": "Estimate your investment",
+    "description": "Get an instant price range based on your project requirements.",
+    "yes": "Yes",
+    "no": "No",
+    "cta": "Request Quote",
+    "questions": {
+      "type": {
+        "label": "What do you need?",
+        "options": {
+          "landing": "Landing Page",
+          "website": "Presentation Website",
+          "store": "Online Store",
+          "custom": "Custom Platform"
+        }
+      },
+      "pages": {
+        "label": "How many pages?",
+        "unit": "pages"
+      },
+      "hosting": { "label": "Do you need hosting?" },
+      "seo": { "label": "Need SEO?" },
+      "payments": { "label": "Need payment integration?" },
+      "multilingual": { "label": "Need multilingual support?" }
+    },
+    "result": {
+      "label": "Estimated investment",
+      "note": "This is only an estimate. Final price depends on project complexity."
+    }
+  },
   "stats": {
-    "responsive": { "value": "100", "suffix": "%", "label": "Responsive" },
-    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
-    "support": { "value": "24/7", "label": "Support" },
-    "delivery": { "value": "Fast", "label": "Delivery" }
+    "projects": { "value": 25, "suffix": "+", "label": "Projects Completed" },
+    "clients": { "value": 99, "suffix": "%", "label": "Satisfied Clients" },
+    "response": { "value": 24, "suffix": "h", "label": "Average Response Time" },
+    "experience": { "value": 5, "suffix": "+", "label": "Years Experience" }
   },
   "testimonials": {
     "label": "Testimonials",

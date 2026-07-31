@@ -7,7 +7,8 @@ import {
 } from "./contact";
 import { getContactToEmail, getResendApiKey } from "./env.server";
 
-const FROM = `Nexus Studio <${siteConfig.contact.fromEmail}>`;
+const FROM = "Nexus Studio <contact@nexusstudio.digital>";
+const REPLY_TO = "contact@nexusstudio.digital";
 
 export async function sendContactEmail(
   data: ContactSubmission
@@ -42,7 +43,7 @@ export async function sendContactEmail(
   const confirmationResult = await resend.emails.send({
     from: FROM,
     to: [data.email],
-    replyTo: siteConfig.contact.fromEmail,
+    replyTo: REPLY_TO,
     subject: `[${siteConfig.name}] We received your message`,
     html: buildConfirmationEmailHtml(data),
   });

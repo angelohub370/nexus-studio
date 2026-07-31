@@ -29,10 +29,10 @@ export const serviceIcons: Record<ServiceId, LucideIcon> = {
 };
 
 export const statIds = [
-  "responsive",
-  "lighthouse",
-  "support",
-  "delivery",
+  "projects",
+  "clients",
+  "response",
+  "experience",
 ] as const;
 
 export type StatId = (typeof statIds)[number];

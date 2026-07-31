@@ -47,19 +47,37 @@
   "nav": {
     "about": "Despre",
     "services": "Servicii",
+    "projects": "Proiecte",
+    "pricing": "Prețuri",
     "process": "Proces",
     "portfolio": "Portofoliu",
     "contact": "Contact"
   },
   "hero": {
     "badge": "Agenție de web design & dezvoltare",
-    "titleWords": ["Construim", "website-uri", "și", "magazine", "online", "care"],
+    "titleWords": [
+      "Construim",
+      "website-uri",
+      "și",
+      "magazine",
+      "online",
+      "care"
+    ],
     "titleHighlight": "aduc clienți.",
     "subtitle": "Design de precizie, cod performant, rezultate măsurabile. Transformăm viziunea ta digitală în experiențe care convertesc.",
     "metrics": {
-      "design": { "label": "Design", "value": "98%" },
-      "performance": { "label": "Performanță", "value": "97" },
-      "conversions": { "label": "Conversii", "value": "+42%" }
+      "design": {
+        "label": "Design",
+        "value": "98%"
+      },
+      "performance": {
+        "label": "Performanță",
+        "value": "97"
+      },
+      "conversions": {
+        "label": "Conversii",
+        "value": "+42%"
+      }
     }
   },
   "marquee": {
@@ -187,10 +205,26 @@
     }
   },
   "stats": {
-    "responsive": { "value": "100", "suffix": "%", "label": "Responsive" },
-    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
-    "support": { "value": "24/7", "label": "Suport" },
-    "delivery": { "value": "Rapid", "label": "Livrare" }
+    "projects": {
+      "value": 25,
+      "suffix": "+",
+      "label": "Proiecte Finalizate"
+    },
+    "clients": {
+      "value": 99,
+      "suffix": "%",
+      "label": "Clienți Mulțumiți"
+    },
+    "response": {
+      "value": 24,
+      "suffix": "h",
+      "label": "Timp Mediu de Răspuns"
+    },
+    "experience": {
+      "value": 5,
+      "suffix": "+",
+      "label": "Ani Experiență"
+    }
   },
   "testimonials": {
     "label": "Testimoniale",
@@ -288,27 +322,60 @@
       "company": {
         "title": "Companie",
         "links": [
-          { "label": "Despre", "href": "#despre" },
-          { "label": "Servicii", "href": "#servicii" },
-          { "label": "Portofoliu", "href": "#portofoliu" },
-          { "label": "Contact", "href": "#contact" }
+          {
+            "label": "Despre",
+            "href": "#despre"
+          },
+          {
+            "label": "Servicii",
+            "href": "#servicii"
+          },
+          {
+            "label": "Portofoliu",
+            "href": "#portofoliu"
+          },
+          {
+            "label": "Contact",
+            "href": "#contact"
+          }
         ]
       },
       "services": {
         "title": "Servicii",
         "links": [
-          { "label": "Website", "href": "#servicii" },
-          { "label": "E-commerce", "href": "#servicii" },
-          { "label": "Landing Page", "href": "#servicii" },
-          { "label": "SEO", "href": "#servicii" }
+          {
+            "label": "Website",
+            "href": "#servicii"
+          },
+          {
+            "label": "E-commerce",
+            "href": "#servicii"
+          },
+          {
+            "label": "Landing Page",
+            "href": "#servicii"
+          },
+          {
+            "label": "SEO",
+            "href": "#servicii"
+          }
         ]
       },
       "legal": {
         "title": "Legal",
         "links": [
-          { "label": "Termeni", "href": "#" },
-          { "label": "Confidențialitate", "href": "#" },
-          { "label": "Cookies", "href": "#" }
+          {
+            "label": "Termeni",
+            "href": "#"
+          },
+          {
+            "label": "Confidențialitate",
+            "href": "#"
+          },
+          {
+            "label": "Cookies",
+            "href": "#"
+          }
         ]
       }
     },
@@ -345,11 +412,19 @@
         "description": "Modă contemporană pentru femei care apreciază calitatea și designul atemporal.",
         "shop": {
           "title": "Magazin",
-          "links": ["Colecții noi", "Best sellers", "Reduceri"]
+          "links": [
+            "Colecții noi",
+            "Best sellers",
+            "Reduceri"
+          ]
         },
         "help": {
           "title": "Ajutor",
-          "links": ["Livrare & Retur", "Ghid mărimi", "Contact"]
+          "links": [
+            "Livrare & Retur",
+            "Ghid mărimi",
+            "Contact"
+          ]
         },
         "contact": {
           "title": "Contact",
@@ -458,9 +533,18 @@
         "paragraph1": "ModaLine s-a născut din pasiunea pentru design atemporal și materiale excepționale. Fiecare piesă din colecțiile noastre este selectată cu grijă pentru a oferi calitate premium la prețuri accesibile.",
         "paragraph2": "Colaborăm cu ateliere din Europa pentru a crea piese unice, sustenabile și versatile — de la birou la evenimente speciale.",
         "stats": [
-          { "value": "2019", "label": "Fondată" },
-          { "value": "12K+", "label": "Clienți" },
-          { "value": "100%", "label": "Lână & bumbac" }
+          {
+            "value": "2019",
+            "label": "Fondată"
+          },
+          {
+            "value": "12K+",
+            "label": "Clienți"
+          },
+          {
+            "value": "100%",
+            "label": "Lână & bumbac"
+          }
         ],
         "imageAlt": "Atelier ModaLine"
       },
@@ -905,14 +989,46 @@
         },
         "disclaimer": "* Prețurile nu includ TVA. Piesele se facturează separat.",
         "items": [
-          { "service": "Revizie standard", "price": "350 lei", "time": "2-3 ore" },
-          { "service": "Revizie premium", "price": "550 lei", "time": "3-4 ore" },
-          { "service": "Schimb plăcuțe frână", "price": "200 lei", "time": "1 oră" },
-          { "service": "Schimb discuri frână", "price": "280 lei", "time": "1.5 ore" },
-          { "service": "Geometrie roți", "price": "120 lei", "time": "45 min" },
-          { "service": "Schimb anvelope (4 buc)", "price": "80 lei", "time": "30 min" },
-          { "service": "Diagnoză completă", "price": "150 lei", "time": "30 min" },
-          { "service": "ITP autoturism", "price": "90 lei", "time": "20 min" }
+          {
+            "service": "Revizie standard",
+            "price": "350 lei",
+            "time": "2-3 ore"
+          },
+          {
+            "service": "Revizie premium",
+            "price": "550 lei",
+            "time": "3-4 ore"
+          },
+          {
+            "service": "Schimb plăcuțe frână",
+            "price": "200 lei",
+            "time": "1 oră"
+          },
+          {
+            "service": "Schimb discuri frână",
+            "price": "280 lei",
+            "time": "1.5 ore"
+          },
+          {
+            "service": "Geometrie roți",
+            "price": "120 lei",
+            "time": "45 min"
+          },
+          {
+            "service": "Schimb anvelope (4 buc)",
+            "price": "80 lei",
+            "time": "30 min"
+          },
+          {
+            "service": "Diagnoză completă",
+            "price": "150 lei",
+            "time": "30 min"
+          },
+          {
+            "service": "ITP autoturism",
+            "price": "90 lei",
+            "time": "20 min"
+          }
         ]
       },
       "contact": {
@@ -1081,6 +1197,145 @@
           "submitted": "Programare trimisă ✓"
         }
       }
+    }
+  },
+  "trustBadges": {
+    "items": {
+      "ssl": {
+        "label": "SSL Securizat"
+      },
+      "invoice": {
+        "label": "Factură Disponibilă"
+      },
+      "contract": {
+        "label": "Contract Inclus"
+      },
+      "support": {
+        "label": "Suport Rapid"
+      },
+      "hosting": {
+        "label": "Hosting Inclus"
+      }
+    }
+  },
+  "featuredProjects": {
+    "label": "Proiecte Reprezentative",
+    "title": "Lucrări care aduc rezultate",
+    "description": "Website-uri premium create pentru afaceri reale — proiectate să transforme vizitatorii în clienți.",
+    "viewProject": "Vezi Proiectul",
+    "items": {
+      "fashion": {
+        "title": "Magazin Fashion",
+        "category": "E-commerce",
+        "description": "Magazin online modern cu colecții curate, checkout rapid și experiență mobile-first."
+      },
+      "restaurant": {
+        "title": "Website Restaurant",
+        "category": "HoReCa",
+        "description": "Site elegant cu meniu, sistem de rezervări și storytelling de brand."
+      },
+      "clinica": {
+        "title": "Clinică Dentară",
+        "category": "Sănătate",
+        "description": "Website orientat pe încredere, cu programări online și pagini de servicii clare."
+      },
+      "gym": {
+        "title": "Website Sală Fitness",
+        "category": "Fitness",
+        "description": "Platformă energică cu abonamente, program cursuri și CTA-uri optimizate."
+      },
+      "realestate": {
+        "title": "Platformă Imobiliară",
+        "category": "Imobiliare",
+        "description": "Listări cu filtre avansate, hartă interactivă și formulare de lead capture."
+      },
+      "booking": {
+        "title": "Platformă Booking",
+        "category": "Servicii",
+        "description": "Sistem de programări cu calendar, selecție servicii și confirmări automate."
+      }
+    }
+  },
+  "pricing": {
+    "label": "Prețuri",
+    "title": "Pachete transparente",
+    "description": "Prețuri clare, fără costuri ascunse. Fiecare pachet e construit pentru performanță și conversii.",
+    "from": "De la",
+    "popular": "Cel mai popular",
+    "cta": "Cere Ofertă",
+    "packages": {
+      "landing": {
+        "name": "Landing Page",
+        "price": "€200",
+        "features": {
+          "responsive": "Design Responsive",
+          "contact": "Formular Contact",
+          "seo": "SEO Basic",
+          "speed": "Încărcare Rapidă"
+        }
+      },
+      "website": {
+        "name": "Website Prezentare",
+        "price": "€400",
+        "features": {
+          "pages": "Până la 10 Pagini",
+          "cms": "CMS",
+          "contact": "Formular Contact",
+          "seo": "SEO Ready",
+          "mobile": "Mobile Friendly"
+        }
+      },
+      "store": {
+        "name": "Magazin Online",
+        "price": "€1000",
+        "features": {
+          "products": "Produse Nelimitate",
+          "payments": "Plăți Online",
+          "delivery": "Livrare",
+          "admin": "Panou Admin",
+          "seo": "SEO",
+          "analytics": "Analytics"
+        }
+      }
+    }
+  },
+  "calculator": {
+    "label": "Calculator Preț",
+    "title": "Estimează investiția",
+    "description": "Obține instant o estimare de preț bazată pe cerințele proiectului tău.",
+    "yes": "Da",
+    "no": "Nu",
+    "cta": "Cere Ofertă",
+    "questions": {
+      "type": {
+        "label": "De ce ai nevoie?",
+        "options": {
+          "landing": "Landing Page",
+          "website": "Website Prezentare",
+          "store": "Magazin Online",
+          "custom": "Platformă Custom"
+        }
+      },
+      "pages": {
+        "label": "Câte pagini?",
+        "unit": "pagini"
+      },
+      "hosting": {
+        "label": "Ai nevoie de hosting?"
+      },
+      "seo": {
+        "label": "Ai nevoie de SEO?"
+      },
+      "payments": {
+        "label": "Integrare plăți?"
+      },
+      "multilingual": {
+        "label": "Suport multilingv?"
+      }
+    },
+    "result": {
+      "label": "Investiție estimată",
+      "note": "Aceasta este doar o estimare. Prețul final depinde de complexitatea proiectului."
     }
   }
 }

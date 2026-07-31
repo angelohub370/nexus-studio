@@ -47,19 +47,38 @@
   "nav": {
     "about": "Chi siamo",
     "services": "Servizi",
+    "projects": "Progetti",
+    "pricing": "Prezzi",
     "process": "Processo",
     "portfolio": "Portfolio",
     "contact": "Contatti"
   },
   "hero": {
     "badge": "Agenzia di web design e sviluppo",
-    "titleWords": ["Creiamo", "siti", "web", "e", "negozi", "online", "che"],
+    "titleWords": [
+      "Creiamo",
+      "siti",
+      "web",
+      "e",
+      "negozi",
+      "online",
+      "che"
+    ],
     "titleHighlight": "portano clienti.",
     "subtitle": "Design di precisione, codice performante, risultati misurabili. Trasformiamo la tua visione digitale in esperienze che convertono.",
     "metrics": {
-      "design": { "label": "Design", "value": "98%" },
-      "performance": { "label": "Prestazioni", "value": "97" },
-      "conversions": { "label": "Conversioni", "value": "+42%" }
+      "design": {
+        "label": "Design",
+        "value": "98%"
+      },
+      "performance": {
+        "label": "Prestazioni",
+        "value": "97"
+      },
+      "conversions": {
+        "label": "Conversioni",
+        "value": "+42%"
+      }
     }
   },
   "marquee": {
@@ -187,10 +206,26 @@
     }
   },
   "stats": {
-    "responsive": { "value": "100", "suffix": "%", "label": "Responsive" },
-    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
-    "support": { "value": "24/7", "label": "Supporto" },
-    "delivery": { "value": "Veloce", "label": "Consegna" }
+    "projects": {
+      "value": 25,
+      "suffix": "+",
+      "label": "Progetti completati"
+    },
+    "clients": {
+      "value": 99,
+      "suffix": "%",
+      "label": "Clienti soddisfatti"
+    },
+    "response": {
+      "value": 24,
+      "suffix": "h",
+      "label": "Tempo medio di risposta"
+    },
+    "experience": {
+      "value": 5,
+      "suffix": "+",
+      "label": "Anni di esperienza"
+    }
   },
   "testimonials": {
     "label": "Testimonianze",
@@ -288,27 +323,60 @@
       "company": {
         "title": "Azienda",
         "links": [
-          { "label": "Chi siamo", "href": "#despre" },
-          { "label": "Servizi", "href": "#servicii" },
-          { "label": "Portfolio", "href": "#portofoliu" },
-          { "label": "Contatti", "href": "#contact" }
+          {
+            "label": "Chi siamo",
+            "href": "#despre"
+          },
+          {
+            "label": "Servizi",
+            "href": "#servicii"
+          },
+          {
+            "label": "Portfolio",
+            "href": "#portofoliu"
+          },
+          {
+            "label": "Contatti",
+            "href": "#contact"
+          }
         ]
       },
       "services": {
         "title": "Servizi",
         "links": [
-          { "label": "Sito web", "href": "#servicii" },
-          { "label": "E-commerce", "href": "#servicii" },
-          { "label": "Landing Page", "href": "#servicii" },
-          { "label": "SEO", "href": "#servicii" }
+          {
+            "label": "Sito web",
+            "href": "#servicii"
+          },
+          {
+            "label": "E-commerce",
+            "href": "#servicii"
+          },
+          {
+            "label": "Landing Page",
+            "href": "#servicii"
+          },
+          {
+            "label": "SEO",
+            "href": "#servicii"
+          }
         ]
       },
       "legal": {
         "title": "Legale",
         "links": [
-          { "label": "Termini", "href": "#" },
-          { "label": "Privacy", "href": "#" },
-          { "label": "Cookie", "href": "#" }
+          {
+            "label": "Termini",
+            "href": "#"
+          },
+          {
+            "label": "Privacy",
+            "href": "#"
+          },
+          {
+            "label": "Cookie",
+            "href": "#"
+          }
         ]
       }
     },
@@ -345,11 +413,19 @@
         "description": "Moda contemporanea per donne che apprezzano qualità e design senza tempo.",
         "shop": {
           "title": "Negozio",
-          "links": ["Nuove collezioni", "Best seller", "Saldi"]
+          "links": [
+            "Nuove collezioni",
+            "Best seller",
+            "Saldi"
+          ]
         },
         "help": {
           "title": "Assistenza",
-          "links": ["Spedizioni e resi", "Guida alle taglie", "Contatti"]
+          "links": [
+            "Spedizioni e resi",
+            "Guida alle taglie",
+            "Contatti"
+          ]
         },
         "contact": {
           "title": "Contatti",
@@ -458,9 +534,18 @@
         "paragraph1": "ModaLine nasce dalla passione per un design senza tempo e materiali eccezionali. Ogni capo delle nostre collezioni è selezionato con cura per offrire qualità premium a prezzi accessibili.",
         "paragraph2": "Collaboriamo con laboratori in tutta Europa per creare capi unici, sostenibili e versatili — dall'ufficio alle occasioni speciali.",
         "stats": [
-          { "value": "2019", "label": "Fondazione" },
-          { "value": "12K+", "label": "Clienti" },
-          { "value": "100%", "label": "Lana e cotone" }
+          {
+            "value": "2019",
+            "label": "Fondazione"
+          },
+          {
+            "value": "12K+",
+            "label": "Clienti"
+          },
+          {
+            "value": "100%",
+            "label": "Lana e cotone"
+          }
         ],
         "imageAlt": "Atelier ModaLine"
       },
@@ -905,14 +990,46 @@
         },
         "disclaimer": "* Prezzi IVA esclusa. Ricambi fatturati separatamente.",
         "items": [
-          { "service": "Tagliando standard", "price": "350 RON", "time": "2–3 ore" },
-          { "service": "Tagliando premium", "price": "550 RON", "time": "3–4 ore" },
-          { "service": "Sostituzione pastiglie freno", "price": "200 RON", "time": "1 ora" },
-          { "service": "Sostituzione dischi freno", "price": "280 RON", "time": "1,5 ore" },
-          { "service": "Convergenza", "price": "120 RON", "time": "45 min" },
-          { "service": "Cambio gomme (4 pz)", "price": "80 RON", "time": "30 min" },
-          { "service": "Diagnostica completa", "price": "150 RON", "time": "30 min" },
-          { "service": "Revisione auto", "price": "90 RON", "time": "20 min" }
+          {
+            "service": "Tagliando standard",
+            "price": "350 RON",
+            "time": "2–3 ore"
+          },
+          {
+            "service": "Tagliando premium",
+            "price": "550 RON",
+            "time": "3–4 ore"
+          },
+          {
+            "service": "Sostituzione pastiglie freno",
+            "price": "200 RON",
+            "time": "1 ora"
+          },
+          {
+            "service": "Sostituzione dischi freno",
+            "price": "280 RON",
+            "time": "1,5 ore"
+          },
+          {
+            "service": "Convergenza",
+            "price": "120 RON",
+            "time": "45 min"
+          },
+          {
+            "service": "Cambio gomme (4 pz)",
+            "price": "80 RON",
+            "time": "30 min"
+          },
+          {
+            "service": "Diagnostica completa",
+            "price": "150 RON",
+            "time": "30 min"
+          },
+          {
+            "service": "Revisione auto",
+            "price": "90 RON",
+            "time": "20 min"
+          }
         ]
       },
       "contact": {
@@ -1081,6 +1198,145 @@
           "submitted": "Prenotazione inviata ✓"
         }
       }
+    }
+  },
+  "trustBadges": {
+    "items": {
+      "ssl": {
+        "label": "SSL Sicuro"
+      },
+      "invoice": {
+        "label": "Fattura disponibile"
+      },
+      "contract": {
+        "label": "Contratto incluso"
+      },
+      "support": {
+        "label": "Supporto rapido"
+      },
+      "hosting": {
+        "label": "Hosting incluso"
+      }
+    }
+  },
+  "featuredProjects": {
+    "label": "Progetti in evidenza",
+    "title": "Lavori che generano risultati",
+    "description": "Siti premium per aziende reali — progettati per convertire i visitatori in clienti.",
+    "viewProject": "Vedi progetto",
+    "items": {
+      "fashion": {
+        "title": "Negozio Moda",
+        "category": "E-commerce",
+        "description": "Negozio online moderno con collezioni curate e checkout fluido."
+      },
+      "restaurant": {
+        "title": "Sito Ristorante",
+        "category": "Ristorazione",
+        "description": "Sito elegante con menu, prenotazioni e storytelling del brand."
+      },
+      "clinica": {
+        "title": "Clinica Dentale",
+        "category": "Sanità",
+        "description": "Sito affidabile con prenotazioni online e pagine servizi."
+      },
+      "gym": {
+        "title": "Sito Palestra",
+        "category": "Fitness",
+        "description": "Piattaforma energica con abbonamenti, orari e CTA ottimizzati."
+      },
+      "realestate": {
+        "title": "Piattaforma Immobiliare",
+        "category": "Immobiliare",
+        "description": "Annunci con filtri avanzati, mappa e capture lead."
+      },
+      "booking": {
+        "title": "Piattaforma Prenotazioni",
+        "category": "Servizi",
+        "description": "Sistema appuntamenti con calendario, servizi e conferme."
+      }
+    }
+  },
+  "pricing": {
+    "label": "Prezzi",
+    "title": "Pacchetti trasparenti",
+    "description": "Prezzi chiari senza costi nascosti. Ogni pacchetto è pensato per le conversioni.",
+    "from": "A partire da",
+    "popular": "Più popolare",
+    "cta": "Richiedi preventivo",
+    "packages": {
+      "landing": {
+        "name": "Landing Page",
+        "price": "€200",
+        "features": {
+          "responsive": "Design responsive",
+          "contact": "Modulo contatti",
+          "seo": "SEO base",
+          "speed": "Caricamento veloce"
+        }
+      },
+      "website": {
+        "name": "Sito vetrina",
+        "price": "€400",
+        "features": {
+          "pages": "Fino a 10 pagine",
+          "cms": "CMS",
+          "contact": "Modulo contatti",
+          "seo": "SEO Ready",
+          "mobile": "Mobile friendly"
+        }
+      },
+      "store": {
+        "name": "Negozio online",
+        "price": "€1000",
+        "features": {
+          "products": "Prodotti illimitati",
+          "payments": "Pagamenti",
+          "delivery": "Consegna",
+          "admin": "Pannello admin",
+          "seo": "SEO",
+          "analytics": "Analytics"
+        }
+      }
+    }
+  },
+  "calculator": {
+    "label": "Calcolatore prezzi",
+    "title": "Stima il tuo investimento",
+    "description": "Ottieni subito un range di prezzo in base alle tue esigenze.",
+    "yes": "Sì",
+    "no": "No",
+    "cta": "Richiedi preventivo",
+    "questions": {
+      "type": {
+        "label": "Di cosa hai bisogno?",
+        "options": {
+          "landing": "Landing Page",
+          "website": "Sito vetrina",
+          "store": "Negozio online",
+          "custom": "Piattaforma custom"
+        }
+      },
+      "pages": {
+        "label": "Quante pagine?",
+        "unit": "pagine"
+      },
+      "hosting": {
+        "label": "Serve hosting?"
+      },
+      "seo": {
+        "label": "Serve SEO?"
+      },
+      "payments": {
+        "label": "Integrazione pagamenti?"
+      },
+      "multilingual": {
+        "label": "Supporto multilingua?"
+      }
+    },
+    "result": {
+      "label": "Investimento stimato",
+      "note": "Questa è solo una stima. Il prezzo finale dipende dalla complessità."
     }
   }
 }

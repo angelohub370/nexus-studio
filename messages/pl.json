@@ -47,19 +47,38 @@
   "nav": {
     "about": "O nas",
     "services": "Usługi",
+    "projects": "Projekty",
+    "pricing": "Cennik",
     "process": "Proces",
     "portfolio": "Portfolio",
     "contact": "Kontakt"
   },
   "hero": {
     "badge": "Agencja web designu i developmentu",
-    "titleWords": ["Tworzymy", "strony", "internetowe", "i", "sklepy", "online", "które"],
+    "titleWords": [
+      "Tworzymy",
+      "strony",
+      "internetowe",
+      "i",
+      "sklepy",
+      "online",
+      "które"
+    ],
     "titleHighlight": "przyciągają klientów.",
     "subtitle": "Precyzyjny design, wydajny kod, mierzalne wyniki. Zamieniamy Twoją cyfrową wizję w doświadczenia, które konwertują.",
     "metrics": {
-      "design": { "label": "Design", "value": "98%" },
-      "performance": { "label": "Wydajność", "value": "97" },
-      "conversions": { "label": "Konwersje", "value": "+42%" }
+      "design": {
+        "label": "Design",
+        "value": "98%"
+      },
+      "performance": {
+        "label": "Wydajność",
+        "value": "97"
+      },
+      "conversions": {
+        "label": "Konwersje",
+        "value": "+42%"
+      }
     }
   },
   "marquee": {
@@ -187,10 +206,26 @@
     }
   },
   "stats": {
-    "responsive": { "value": "100", "suffix": "%", "label": "Responsywność" },
-    "lighthouse": { "value": "95", "suffix": "+", "label": "Lighthouse" },
-    "support": { "value": "24/7", "label": "Wsparcie" },
-    "delivery": { "value": "Szybko", "label": "Realizacja" }
+    "projects": {
+      "value": 25,
+      "suffix": "+",
+      "label": "Ukończone projekty"
+    },
+    "clients": {
+      "value": 99,
+      "suffix": "%",
+      "label": "Zadowoleni klienci"
+    },
+    "response": {
+      "value": 24,
+      "suffix": "h",
+      "label": "Średni czas odpowiedzi"
+    },
+    "experience": {
+      "value": 5,
+      "suffix": "+",
+      "label": "Lat doświadczenia"
+    }
   },
   "testimonials": {
     "label": "Opinie",
@@ -288,27 +323,60 @@
       "company": {
         "title": "Firma",
         "links": [
-          { "label": "O nas", "href": "#despre" },
-          { "label": "Usługi", "href": "#servicii" },
-          { "label": "Portfolio", "href": "#portofoliu" },
-          { "label": "Kontakt", "href": "#contact" }
+          {
+            "label": "O nas",
+            "href": "#despre"
+          },
+          {
+            "label": "Usługi",
+            "href": "#servicii"
+          },
+          {
+            "label": "Portfolio",
+            "href": "#portofoliu"
+          },
+          {
+            "label": "Kontakt",
+            "href": "#contact"
+          }
         ]
       },
       "services": {
         "title": "Usługi",
         "links": [
-          { "label": "Strona internetowa", "href": "#servicii" },
-          { "label": "E-commerce", "href": "#servicii" },
-          { "label": "Landing Page", "href": "#servicii" },
-          { "label": "SEO", "href": "#servicii" }
+          {
+            "label": "Strona internetowa",
+            "href": "#servicii"
+          },
+          {
+            "label": "E-commerce",
+            "href": "#servicii"
+          },
+          {
+            "label": "Landing Page",
+            "href": "#servicii"
+          },
+          {
+            "label": "SEO",
+            "href": "#servicii"
+          }
         ]
       },
       "legal": {
         "title": "Prawne",
         "links": [
-          { "label": "Regulamin", "href": "#" },
-          { "label": "Prywatność", "href": "#" },
-          { "label": "Cookies", "href": "#" }
+          {
+            "label": "Regulamin",
+            "href": "#"
+          },
+          {
+            "label": "Prywatność",
+            "href": "#"
+          },
+          {
+            "label": "Cookies",
+            "href": "#"
+          }
         ]
       }
     },
@@ -345,11 +413,19 @@
         "description": "Współczesna moda dla kobiet ceniących jakość i ponadczasowy design.",
         "shop": {
           "title": "Sklep",
-          "links": ["Nowe kolekcje", "Bestsellery", "Wyprzedaż"]
+          "links": [
+            "Nowe kolekcje",
+            "Bestsellery",
+            "Wyprzedaż"
+          ]
         },
         "help": {
           "title": "Pomoc",
-          "links": ["Wysyłka i zwroty", "Przewodnik rozmiarów", "Kontakt"]
+          "links": [
+            "Wysyłka i zwroty",
+            "Przewodnik rozmiarów",
+            "Kontakt"
+          ]
         },
         "contact": {
           "title": "Kontakt",
@@ -458,9 +534,18 @@
         "paragraph1": "ModaLine powstało z pasji do ponadczasowego designu i wyjątkowych materiałów. Każdy element naszych kolekcji jest starannie dobierany, aby oferować premium jakość w przystępnych cenach.",
         "paragraph2": "Współpracujemy z pracowniami w całej Europie, tworząc unikalne, zrównoważone i uniwersalne elementy — od biura po specjalne okazje.",
         "stats": [
-          { "value": "2019", "label": "Założenie" },
-          { "value": "12K+", "label": "Klientów" },
-          { "value": "100%", "label": "Wełna i bawełna" }
+          {
+            "value": "2019",
+            "label": "Założenie"
+          },
+          {
+            "value": "12K+",
+            "label": "Klientów"
+          },
+          {
+            "value": "100%",
+            "label": "Wełna i bawełna"
+          }
         ],
         "imageAlt": "Atelier ModaLine"
       },
@@ -905,14 +990,46 @@
         },
         "disclaimer": "* Ceny bez VAT. Części fakturowane osobno.",
         "items": [
-          { "service": "Serwis standardowy", "price": "350 RON", "time": "2–3 godz." },
-          { "service": "Serwis premium", "price": "550 RON", "time": "3–4 godz." },
-          { "service": "Wymiana klocków hamulcowych", "price": "200 RON", "time": "1 godz." },
-          { "service": "Wymiana tarcz hamulcowych", "price": "280 RON", "time": "1,5 godz." },
-          { "service": "Geometria kół", "price": "120 RON", "time": "45 min" },
-          { "service": "Wymiana opon (4 szt.)", "price": "80 RON", "time": "30 min" },
-          { "service": "Pełna diagnostyka", "price": "150 RON", "time": "30 min" },
-          { "service": "Przegląd techniczny", "price": "90 RON", "time": "20 min" }
+          {
+            "service": "Serwis standardowy",
+            "price": "350 RON",
+            "time": "2–3 godz."
+          },
+          {
+            "service": "Serwis premium",
+            "price": "550 RON",
+            "time": "3–4 godz."
+          },
+          {
+            "service": "Wymiana klocków hamulcowych",
+            "price": "200 RON",
+            "time": "1 godz."
+          },
+          {
+            "service": "Wymiana tarcz hamulcowych",
+            "price": "280 RON",
+            "time": "1,5 godz."
+          },
+          {
+            "service": "Geometria kół",
+            "price": "120 RON",
+            "time": "45 min"
+          },
+          {
+            "service": "Wymiana opon (4 szt.)",
+            "price": "80 RON",
+            "time": "30 min"
+          },
+          {
+            "service": "Pełna diagnostyka",
+            "price": "150 RON",
+            "time": "30 min"
+          },
+          {
+            "service": "Przegląd techniczny",
+            "price": "90 RON",
+            "time": "20 min"
+          }
         ]
       },
       "contact": {
@@ -1081,6 +1198,145 @@
           "submitted": "Rezerwacja wysłana ✓"
         }
       }
+    }
+  },
+  "trustBadges": {
+    "items": {
+      "ssl": {
+        "label": "SSL Bezpieczny"
+      },
+      "invoice": {
+        "label": "Faktura dostępna"
+      },
+      "contract": {
+        "label": "Umowa w cenie"
+      },
+      "support": {
+        "label": "Szybkie wsparcie"
+      },
+      "hosting": {
+        "label": "Hosting w cenie"
+      }
+    }
+  },
+  "featuredProjects": {
+    "label": "Wyróżnione projekty",
+    "title": "Prace, które przynoszą rezultaty",
+    "description": "Premium strony dla prawdziwych firm — zaprojektowane, by zamieniać odwiedzających w klientów.",
+    "viewProject": "Zobacz projekt",
+    "items": {
+      "fashion": {
+        "title": "Sklep Modowy",
+        "category": "E-commerce",
+        "description": "Nowoczesny sklep online z kuratorskimi kolekcjami i płynnym checkoutem."
+      },
+      "restaurant": {
+        "title": "Strona Restauracji",
+        "category": "Gastronomia",
+        "description": "Elegancka strona z menu, rezerwacjami i historią marki."
+      },
+      "clinica": {
+        "title": "Klinika Dentystyczna",
+        "category": "Zdrowie",
+        "description": "Strona budująca zaufanie z rezerwacjami online i opisem usług."
+      },
+      "gym": {
+        "title": "Strona Siłowni",
+        "category": "Fitness",
+        "description": "Dynamiczna platforma z karnetami, grafikiem zajęć i zoptymalizowanymi CTA."
+      },
+      "realestate": {
+        "title": "Platforma Nieruchomości",
+        "category": "Nieruchomości",
+        "description": "Oferty z filtrami, mapą i formularzami lead capture."
+      },
+      "booking": {
+        "title": "Platforma Rezerwacji",
+        "category": "Usługi",
+        "description": "System rezerwacji z kalendarzem, wyborem usług i potwierdzeniami."
+      }
+    }
+  },
+  "pricing": {
+    "label": "Cennik",
+    "title": "Przejrzyste pakiety",
+    "description": "Jasne ceny bez ukrytych kosztów. Każdy pakiet jest zoptymalizowany pod konwersje.",
+    "from": "Od",
+    "popular": "Najpopularniejszy",
+    "cta": "Zapytaj o wycenę",
+    "packages": {
+      "landing": {
+        "name": "Landing Page",
+        "price": "€200",
+        "features": {
+          "responsive": "Responsywny design",
+          "contact": "Formularz kontaktowy",
+          "seo": "Podstawowe SEO",
+          "speed": "Szybkie ładowanie"
+        }
+      },
+      "website": {
+        "name": "Strona wizytówka",
+        "price": "€400",
+        "features": {
+          "pages": "Do 10 stron",
+          "cms": "CMS",
+          "contact": "Formularz kontaktowy",
+          "seo": "SEO Ready",
+          "mobile": "Mobile friendly"
+        }
+      },
+      "store": {
+        "name": "Sklep online",
+        "price": "€1000",
+        "features": {
+          "products": "Nieograniczone produkty",
+          "payments": "Płatności",
+          "delivery": "Dostawa",
+          "admin": "Panel admin",
+          "seo": "SEO",
+          "analytics": "Analytics"
+        }
+      }
+    }
+  },
+  "calculator": {
+    "label": "Kalkulator cen",
+    "title": "Oszacuj inwestycję",
+    "description": "Uzyskaj natychmiastowy zakres cenowy na podstawie wymagań projektu.",
+    "yes": "Tak",
+    "no": "Nie",
+    "cta": "Zapytaj o wycenę",
+    "questions": {
+      "type": {
+        "label": "Czego potrzebujesz?",
+        "options": {
+          "landing": "Landing Page",
+          "website": "Strona wizytówka",
+          "store": "Sklep online",
+          "custom": "Platforma na zamówienie"
+        }
+      },
+      "pages": {
+        "label": "Ile stron?",
+        "unit": "stron"
+      },
+      "hosting": {
+        "label": "Potrzebujesz hostingu?"
+      },
+      "seo": {
+        "label": "Potrzebujesz SEO?"
+      },
+      "payments": {
+        "label": "Integracja płatności?"
+      },
+      "multilingual": {
+        "label": "Wsparcie wielojęzyczne?"
+      }
+    },
+    "result": {
+      "label": "Szacowana inwestycja",
+      "note": "To tylko szacunek. Ostateczna cena zależy od złożoności projektu."
     }
   }
 }
