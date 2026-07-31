@@ -268,7 +268,9 @@
       "phonePlaceholder": "+40 7XX XXX XXX",
       "messagePlaceholder": "Beschreiben Sie Ihr Projekt...",
       "submit": "Nachricht senden",
-      "submitted": "Nachricht gesendet"
+      "submitted": "Nachricht gesendet",
+      "sending": "Wird gesendet...",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
     },
     "labels": {
       "phone": "Telefon",

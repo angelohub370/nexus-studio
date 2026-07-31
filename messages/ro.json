@@ -268,7 +268,9 @@
       "phonePlaceholder": "+40 7XX XXX XXX",
       "messagePlaceholder": "Descrie proiectul tău...",
       "submit": "Trimite mesajul",
-      "submitted": "Mesaj trimis"
+      "submitted": "Mesaj trimis",
+      "sending": "Se trimite...",
+      "errorGeneric": "A apărut o eroare. Încearcă din nou."
     },
     "labels": {
       "phone": "Telefon",

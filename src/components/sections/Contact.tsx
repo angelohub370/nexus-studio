@@ -11,15 +11,26 @@ import { Input, Textarea } from "@/components/ui/Input";
 import { siteConfig } from "@/lib/site.config";
 import { EASE } from "@/lib/motion";
 
+type FormState = {
+  name: string;
+  email: string;
+  phone: string;
+  message: string;
+};
+
+const initialFormState: FormState = {
+  name: "",
+  email: "",
+  phone: "",
+  message: "",
+};
+
 export function Contact() {
   const t = useTranslations("contact");
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
+  const [formState, setFormState] = useState<FormState>(initialFormState);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const contactLinks = [
     {
@@ -40,11 +51,39 @@ export function Contact() {
     },
   ];
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsSubmitted(true);
-    setTimeout(() => setIsSubmitted(false), 3000);
-    setFormState({ name: "", email: "", phone: "", message: "" });
+    setError(null);
+    setIsSubmitting(true);
+    setIsSubmitted(false);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formState),
+      });
+
+      const result = (await response.json()) as {
+        success?: boolean;
+        error?: string;
+        saved?: boolean;
+      };
+
+      if (!response.ok) {
+        throw new Error(result.error ?? t("form.errorGeneric"));
+      }
+
+      setIsSubmitted(true);
+      setFormState(initialFormState);
+      setTimeout(() => setIsSubmitted(false), 5000);
+    } catch (err) {
+      const message =
+        err instanceof Error ? err.message : t("form.errorGeneric");
+      setError(message);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -63,6 +102,7 @@ export function Contact() {
           transition={{ duration: 0.6, ease: EASE.out }}
           onSubmit={handleSubmit}
           className="space-y-4 lg:col-span-3"
+          noValidate
         >
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <Input
@@ -74,6 +114,7 @@ export function Contact() {
                 setFormState({ ...formState, name: e.target.value })
               }
               placeholder={t("form.namePlaceholder")}
+              disabled={isSubmitting}
             />
             <Input
               id="email"
@@ -85,6 +126,7 @@ export function Contact() {
                 setFormState({ ...formState, email: e.target.value })
               }
               placeholder={t("form.emailPlaceholder")}
+              disabled={isSubmitting}
             />
           </div>
 
@@ -97,6 +139,7 @@ export function Contact() {
               setFormState({ ...formState, phone: e.target.value })
             }
             placeholder={t("form.phonePlaceholder")}
+            disabled={isSubmitting}
           />
 
           <Textarea
@@ -109,10 +152,32 @@ export function Contact() {
               setFormState({ ...formState, message: e.target.value })
             }
             placeholder={t("form.messagePlaceholder")}
+            disabled={isSubmitting}
           />
 
-          <Button type="submit" size="lg" className="w-full sm:w-auto">
-            {isSubmitted ? t("form.submitted") : t("form.submit")}
+          {error && (
+            <p className="rounded-lg border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-400">
+              {error}
+            </p>
+          )}
+
+          {isSubmitted && (
+            <p className="rounded-lg border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-400">
+              {t("form.submitted")}
+            </p>
+          )}
+
+          <Button
+            type="submit"
+            size="lg"
+            className="w-full sm:w-auto"
+            disabled={isSubmitting}
+          >
+            {isSubmitting
+              ? t("form.sending")
+              : isSubmitted
+                ? t("form.submitted")
+                : t("form.submit")}
           </Button>
         </motion.form>
 
@@ -144,19 +209,6 @@ export function Contact() {
                 />
               </a>
             ))}
-          </div>
-
-          <div className="overflow-hidden rounded-xl border border-white/[0.06]">
-            <iframe
-              src={siteConfig.contact.mapEmbed}
-              width="100%"
-              height="200"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title={t("labels.mapTitle")}
-            />
           </div>
         </motion.div>
       </div>

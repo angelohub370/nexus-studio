@@ -268,7 +268,9 @@
       "phonePlaceholder": "+40 7XX XXX XXX",
       "messagePlaceholder": "Describe your project...",
       "submit": "Send message",
-      "submitted": "Message sent"
+      "submitted": "Message sent",
+      "sending": "Sending...",
+      "errorGeneric": "Something went wrong. Please try again."
     },
     "labels": {
       "phone": "Phone",
@@ -351,7 +353,7 @@
         },
         "contact": {
           "title": "Contact",
-          "email": "contact@modaline.ro",
+          "email": "contactnexusstudio96@gmail.com",
           "phone": "+40 721 000 111",
           "address": "Bucharest, Romania"
         },
@@ -479,7 +481,7 @@
           "phone": "Phone",
           "phoneValue": "+40 721 000 111",
           "email": "Email",
-          "emailValue": "contact@modaline.ro",
+          "emailValue": "contactnexusstudio96@gmail.com",
           "hours": "Hours",
           "hoursValue": "Mon–Sat: 10:00–20:00"
         }

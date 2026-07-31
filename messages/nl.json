@@ -268,7 +268,9 @@
       "phonePlaceholder": "+40 7XX XXX XXX",
       "messagePlaceholder": "Beschrijf uw project...",
       "submit": "Bericht versturen",
-      "submitted": "Bericht verzonden"
+      "submitted": "Bericht verzonden",
+      "sending": "Verzenden...",
+      "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw."
     },
     "labels": {
       "phone": "Telefoon",
