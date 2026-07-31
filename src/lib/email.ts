@@ -1,11 +1,13 @@
 import { Resend } from "resend";
 import { siteConfig } from "./site.config";
-import { buildContactEmailHtml, type ContactSubmission } from "./contact";
 import {
-  getContactToEmail,
-  getResendApiKey,
-  getResendFromEmail,
-} from "./env.server";
+  buildConfirmationEmailHtml,
+  buildContactEmailHtml,
+  type ContactSubmission,
+} from "./contact";
+import { getContactToEmail, getResendApiKey } from "./env.server";
+
+const FROM = `Nexus Studio <${siteConfig.contact.fromEmail}>`;
 
 export async function sendContactEmail(
   data: ContactSubmission
@@ -20,22 +22,37 @@ export async function sendContactEmail(
   }
 
   const resend = new Resend(apiKey);
-  const to = getContactToEmail() ?? siteConfig.contact.email;
-  const from =
-    getResendFromEmail() ?? "Nexus Studio <onboarding@resend.dev>";
+  const internalTo = getContactToEmail() ?? siteConfig.contact.email;
 
-  const { error } = await resend.emails.send({
-    from,
-    to: [to],
+  const internalResult = await resend.emails.send({
+    from: FROM,
+    to: [internalTo],
     replyTo: data.email,
     subject: `[${siteConfig.name}] Mesaj nou de la ${data.name}`,
     html: buildContactEmailHtml(data),
   });
 
-  if (error) {
+  if (internalResult.error) {
     return {
       success: false,
-      error: error.message ?? "Failed to send email.",
+      error: internalResult.error.message ?? "Failed to send notification email.",
+    };
+  }
+
+  const confirmationResult = await resend.emails.send({
+    from: FROM,
+    to: [data.email],
+    replyTo: siteConfig.contact.fromEmail,
+    subject: `[${siteConfig.name}] We received your message`,
+    html: buildConfirmationEmailHtml(data),
+  });
+
+  if (confirmationResult.error) {
+    return {
+      success: false,
+      error:
+        confirmationResult.error.message ??
+        "Failed to send confirmation email.",
     };
   }
 

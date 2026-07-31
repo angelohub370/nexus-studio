@@ -58,6 +58,17 @@ export function buildContactEmailHtml(data: ContactSubmission): string {
   `;
 }
 
+export function buildConfirmationEmailHtml(data: ContactSubmission): string {
+  return `
+    <h2>Thank you for contacting ${siteConfig.name}</h2>
+    <p>Hi ${escapeHtml(data.name)},</p>
+    <p>We received your message and will get back to you within 24 hours.</p>
+    <p><strong>Your message:</strong></p>
+    <p>${escapeHtml(data.message).replace(/\n/g, "<br>")}</p>
+    <p>Best regards,<br>${siteConfig.name}</p>
+  `;
+}
+
 function escapeHtml(text: string): string {
   return text
     .replace(/&/g, "&amp;")
