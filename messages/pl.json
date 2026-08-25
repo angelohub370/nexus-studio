@@ -1267,7 +1267,7 @@
     "packages": {
       "landing": {
         "name": "Landing Page",
-        "price": "€200",
+        "price": "€100",
         "features": {
           "responsive": "Responsywny design",
           "contact": "Formularz kontaktowy",
@@ -1277,7 +1277,7 @@
       },
       "website": {
         "name": "Strona wizytówka",
-        "price": "€400",
+        "price": "€200",
         "features": {
           "pages": "Do 10 stron",
           "cms": "CMS",
@@ -1288,7 +1288,7 @@
       },
       "store": {
         "name": "Sklep online",
-        "price": "€1000",
+        "price": "€500",
         "features": {
           "products": "Nieograniczone produkty",
           "payments": "Płatności",
