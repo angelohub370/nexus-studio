@@ -1266,7 +1266,7 @@
     "packages": {
       "landing": {
         "name": "Landing Page",
-        "price": "€200",
+        "price": "€100",
         "features": {
           "responsive": "Design Responsive",
           "contact": "Formular Contact",
@@ -1276,7 +1276,7 @@
       },
       "website": {
         "name": "Website Prezentare",
-        "price": "€400",
+        "price": "€200",
         "features": {
           "pages": "Până la 10 Pagini",
           "cms": "CMS",
