@@ -1266,7 +1266,7 @@
     "packages": {
       "landing": {
         "name": "Landing Page",
-        "price": "€200",
+        "price": "€100",
         "features": {
           "responsive": "Responsives Design",
           "contact": "Kontaktformular",
@@ -1276,7 +1276,7 @@
       },
       "website": {
         "name": "Präsentationswebsite",
-        "price": "€400",
+        "price": "€200",
         "features": {
           "pages": "Bis zu 10 Seiten",
           "cms": "CMS",
