@@ -245,7 +245,7 @@
     "packages": {
       "landing": {
         "name": "Landing Page",
-        "price": "€200",
+        "price": "€100",
         "features": {
           "responsive": "Responsive Design",
           "contact": "Contact Form",
@@ -255,7 +255,7 @@
       },
       "website": {
         "name": "Presentation Website",
-        "price": "€400",
+        "price": "€200",
         "features": {
           "pages": "Up to 10 Pages",
           "cms": "CMS",
@@ -266,7 +266,7 @@
       },
       "store": {
         "name": "Online Store",
-        "price": "€1000",
+        "price": "€500",
         "features": {
           "products": "Unlimited Products",
           "payments": "Payments",
