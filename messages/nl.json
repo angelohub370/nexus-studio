@@ -1267,7 +1267,7 @@
     "packages": {
       "landing": {
         "name": "Landing Page",
-        "price": "€200",
+        "price": "€100",
         "features": {
           "responsive": "Responsive design",
           "contact": "Contactformulier",
@@ -1277,7 +1277,7 @@
       },
       "website": {
         "name": "Presentatiewebsite",
-        "price": "€400",
+        "price": "€200",
         "features": {
           "pages": "Tot 10 pagina's",
           "cms": "CMS",
@@ -1288,7 +1288,7 @@
       },
       "store": {
         "name": "Webwinkel",
-        "price": "€1000",
+        "price": "€500",
         "features": {
           "products": "Onbeperkte producten",
           "payments": "Betalingen",
