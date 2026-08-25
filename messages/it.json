@@ -1267,7 +1267,7 @@
     "packages": {
       "landing": {
         "name": "Landing Page",
-        "price": "€200",
+        "price": "€100",
         "features": {
           "responsive": "Design responsive",
           "contact": "Modulo contatti",
@@ -1277,7 +1277,7 @@
       },
       "website": {
         "name": "Sito vetrina",
-        "price": "€400",
+        "price": "€200",
         "features": {
           "pages": "Fino a 10 pagine",
           "cms": "CMS",
@@ -1288,7 +1288,7 @@
       },
       "store": {
         "name": "Negozio online",
-        "price": "€1000",
+        "price": "€500",
         "features": {
           "products": "Prodotti illimitati",
           "payments": "Pagamenti",
